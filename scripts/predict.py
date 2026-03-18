@@ -3,9 +3,13 @@ from PIL import Image
 from torchvision import transforms
 from torchvision.models import resnet18
 
+# MUST match training
+num_classes = 4  # <-- CHANGE THIS to your actual number
+
 model = resnet18()
 model.fc = torch.nn.Linear(512, num_classes)
-model.load_state_dict(torch.load("flower_model.pth"))
+
+model.load_state_dict(torch.load("../models/flower_model.pth"))
 model.eval()
 
 transform = transforms.Compose([

@@ -4,37 +4,29 @@ from torch.utils.data import Dataset
 
 
 class FlowerTypeDataset(Dataset):
-    def __init__(self, root_dir, transform=None):
+    def __init__(self, df, root_dir, transform=None):
+        self.df = df.reset_index(drop=True)
         self.root_dir = root_dir
         self.transform = transform
 
-        self.image_paths = []
-        self.labels = []
-        self.classes = []
-
-        # get folder names (sites)
-        self.classes = sorted(os.listdir(root_dir))
+        # Classes from dataframe
+        self.classes = sorted(self.df["flower_type"].unique())
         self.class_to_idx = {c: i for i, c in enumerate(self.classes)}
 
-        for cls in self.classes:
-            class_folder = os.path.join(root_dir, cls)
-
-            if not os.path.isdir(class_folder):
-                continue
-
-            for img in os.listdir(class_folder):
-                if img.lower().endswith((".jpg", ".jpeg", ".png")):
-                    self.image_paths.append(os.path.join(class_folder, img))
-                    self.labels.append(self.class_to_idx[cls])
-
     def __len__(self):
-        return len(self.image_paths)
+        return len(self.df)
 
     def __getitem__(self, idx):
-        img_path = self.image_paths[idx]
-        label = self.labels[idx]
+        row = self.df.iloc[idx]
+
+        img_path = os.path.join(
+            self.root_dir,
+            row["site"],
+            row["image_name"]
+        )
 
         image = Image.open(img_path).convert("RGB")
+        label = self.class_to_idx[row["flower_type"]]
 
         if self.transform:
             image = self.transform(image)
