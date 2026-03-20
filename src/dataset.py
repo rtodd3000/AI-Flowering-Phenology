@@ -15,15 +15,13 @@ class FlowerTypeDataset(Dataset):
 
     def __len__(self):
         return len(self.df)
-
+    
     def __getitem__(self, idx):
         row = self.df.iloc[idx]
+        img_path = os.path.join(self.root_dir, row["site"], row["image_name"])
 
-        img_path = os.path.join(
-            self.root_dir,
-            row["site"],
-            row["image_name"]
-        )
+        if not os.path.isfile(img_path):
+            img_path = img_path + ".jpg"
 
         image = Image.open(img_path).convert("RGB")
         label = self.class_to_idx[row["flower_type"]]
