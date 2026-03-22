@@ -8,6 +8,7 @@ import torch.optim as optim
 from tqdm import tqdm
 import pandas as pd
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
 from dataset import FlowerTypeDataset
 
 
@@ -20,9 +21,14 @@ print("\nClass distribution:")
 print(df["flower_type"].value_counts())
 
 # -------------------------
+# Create unique ID to prevent data leakage
+# Image names may be duplicated across sites,
+# so we combine site + image_name as a unique key
+# -------------------------
+df["unique_id"] = df["site"] + "/" + df["image_name"]
+
+# -------------------------
 # Stratified split (70/15/15)
-# Stratify ensures every flower type is represented
-# in train, val, and test proportionally
 # -------------------------
 train_df, temp_df = train_test_split(
     df,
@@ -30,13 +36,20 @@ train_df, temp_df = train_test_split(
     stratify=df["flower_type"],
     random_state=42
 )
-
 val_df, test_df = train_test_split(
     temp_df,
     test_size=0.5,
     stratify=temp_df["flower_type"],
     random_state=42
 )
+
+# Verify no leakage
+overlap_train_test = set(train_df["unique_id"]) & set(test_df["unique_id"])
+overlap_train_val  = set(train_df["unique_id"]) & set(val_df["unique_id"])
+print(f"\nTrain/test overlap: {len(overlap_train_test)}")
+print(f"Train/val overlap:  {len(overlap_train_val)}")
+assert len(overlap_train_test) == 0, "Data leakage between train and test!"
+assert len(overlap_train_val)  == 0, "Data leakage between train and val!"
 
 print(f"\nTrain: {len(train_df)} | Val: {len(val_df)} | Test: {len(test_df)}")
 print("\nTrain class distribution:")
@@ -84,27 +97,19 @@ print("\nClasses:", train_dataset.classes)
 
 # -------------------------
 # Weighted sampler to handle class imbalance
-# This gives each class an equal chance of being
-# sampled during training, regardless of its size
 # -------------------------
-class_counts = train_df["flower_type"].value_counts()
-
-# Weight per class = 1 / number of samples in that class
-class_weights = {cls: 1.0 / count for cls, count in class_counts.items()}
-
-# Assign a weight to every sample in the training set
-sample_weights = train_df["flower_type"].map(class_weights).tolist()
-sample_weights = torch.DoubleTensor(sample_weights)
+class_counts   = train_df["flower_type"].value_counts()
+class_weights  = {cls: 1.0 / count for cls, count in class_counts.items()}
+sample_weights = torch.DoubleTensor(train_df["flower_type"].map(class_weights).tolist())
 
 sampler = WeightedRandomSampler(
     weights=sample_weights,
     num_samples=len(sample_weights),
-    replacement=True  # Allows minority classes to be resampled
+    replacement=True
 )
 
 # -------------------------
 # DataLoaders
-# Note: shuffle=False when using a sampler
 # -------------------------
 train_loader = DataLoader(train_dataset, batch_size=16, sampler=sampler)
 val_loader   = DataLoader(val_dataset,   batch_size=16)
@@ -116,8 +121,6 @@ test_loader  = DataLoader(test_dataset,  batch_size=16)
 num_classes = len(train_dataset.classes)
 model = resnet18(weights=ResNet18_Weights.DEFAULT)
 
-# Freeze all layers — only train the final classification head
-# This prevents overfitting on a small dataset
 for param in model.parameters():
     param.requires_grad = False
 
@@ -211,8 +214,11 @@ print("\nLoading best model for final evaluation...")
 model.load_state_dict(torch.load("../models/flower_type_model_best.pth"))
 model.eval()
 
-correct = 0
-total   = 0
+all_preds  = []
+all_labels = []
+correct    = 0
+total      = 0
+
 with torch.no_grad():
     for images, labels in test_loader:
         images  = images.to(device)
@@ -221,28 +227,14 @@ with torch.no_grad():
         _, predicted = outputs.max(1)
         correct += (predicted == labels).sum().item()
         total   += labels.size(0)
+        all_preds.extend(predicted.cpu().numpy())
+        all_labels.extend(labels.cpu().numpy())
 
 test_accuracy = 100 * correct / total
 print(f"\nFinal Test Accuracy:      {test_accuracy:.2f}%")
 print(f"Best Validation Accuracy: {best_val_accuracy:.2f}%")
 
-# -------------------------
-# Per-class breakdown
-# -------------------------
-from sklearn.metrics import classification_report
-
-all_preds  = []
-all_labels = []
-
-model.eval()
-with torch.no_grad():
-    for images, labels in test_loader:
-        images  = images.to(device)
-        outputs = model(images)
-        _, predicted = outputs.max(1)
-        all_preds.extend(predicted.cpu().numpy())
-        all_labels.extend(labels.cpu().numpy())
-
+print("\nPer-class breakdown:")
 print(classification_report(
     all_labels,
     all_preds,
