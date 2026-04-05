@@ -24,6 +24,10 @@ df = pd.read_csv("../data/labels.csv")
 # -------------------------
 df["unique_id"] = df["site"] + "/" + df["image_name"]
 
+# Convert intensity to string so it works with the dataset class
+# (dataset expects string labels like flower_type)
+df["intensity"] = df["intensity"].astype(str)
+
 # -------------------------
 # Stratified split (70/15/15)
 # -------------------------
@@ -83,6 +87,9 @@ eval_transform = transforms.Compose([
 
 # -------------------------
 # Datasets
+# We reuse FlowerTypeDataset since it works for any
+# string label column — intensity levels 0, 1, 2, 3
+# are treated as 4 separate classes
 # -------------------------
 train_dataset = FlowerTypeDataset(train_df, "../data/raw", train_transform, label_col="intensity")
 val_dataset   = FlowerTypeDataset(val_df,   "../data/raw", eval_transform, label_col="intensity")
@@ -249,5 +256,6 @@ print("\nPer-class breakdown:")
 print(classification_report(
     all_labels,
     all_preds,
-    target_names=test_dataset.classes
+    target_names=test_dataset.classes,
+    zero_division=0
 ))
