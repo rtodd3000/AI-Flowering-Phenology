@@ -15,7 +15,7 @@ from dataset import FlowerTypeDataset
 # -------------------------
 # Load CSV
 # -------------------------
-df = pd.read_csv("../data/labels.csv")
+df = pd.read_csv("data/labels.csv")
 
 # -------------------------
 # Create unique ID to prevent data leakage
@@ -91,9 +91,9 @@ eval_transform = transforms.Compose([
 # string label column — intensity levels 0, 1, 2, 3
 # are treated as 4 separate classes
 # -------------------------
-train_dataset = FlowerTypeDataset(train_df, "../data/raw", train_transform, label_col="intensity")
-val_dataset   = FlowerTypeDataset(val_df,   "../data/raw", eval_transform, label_col="intensity")
-test_dataset  = FlowerTypeDataset(test_df,  "../data/raw", eval_transform, label_col="intensity")
+train_dataset = FlowerTypeDataset(train_df, "data/raw", train_transform, label_col="intensity")
+val_dataset   = FlowerTypeDataset(val_df,   "data/raw", eval_transform, label_col="intensity")
+test_dataset  = FlowerTypeDataset(test_df,  "data/raw", eval_transform, label_col="intensity")
 
 print("Classes:", train_dataset.classes)
 
@@ -121,7 +121,7 @@ num_classes = len(train_dataset.classes)
 model = resnet18(weights=None)
 model.fc = nn.Linear(model.fc.in_features, num_classes)
 
-model.load_state_dict(torch.load("../models/intensity_model_best.pth"))
+model.load_state_dict(torch.load("models/intensity_model_best.pth"))
 print("Loaded baseline model from intensity_model_best.pth")
 
 # -------------------------
@@ -216,7 +216,7 @@ for epoch in range(num_epochs):
     if val_accuracy > best_val_accuracy:
         best_val_accuracy = val_accuracy
         epochs_no_improve = 0
-        torch.save(model.state_dict(), "../models/intensity_model_finetuned.pth")
+        torch.save(model.state_dict(), "models/intensity_model_finetuned.pth")
         print(f"           | Best model saved! (val acc: {best_val_accuracy:.2f}%)")
     else:
         epochs_no_improve += 1
@@ -229,7 +229,7 @@ for epoch in range(num_epochs):
 # Final test evaluation (load best fine-tuned model)
 # -------------------------
 print("\nLoading best fine-tuned model for final evaluation...")
-model.load_state_dict(torch.load("../models/intensity_model_finetuned.pth"))
+model.load_state_dict(torch.load("models/intensity_model_finetuned.pth"))
 model.eval()
 
 all_preds  = []

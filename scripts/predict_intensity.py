@@ -7,28 +7,19 @@ from torchvision import transforms
 from torchvision.models import resnet18
 import torch.nn as nn
 from PIL import Image
-
+import pandas as pd
 
 # -------------------------
 # Config
 # -------------------------
-MODEL_PATH = "../models/intensity_model_finetuned.pth"
-
-CLASSES = [
-    "0",
-    "1",
-    "2",
-    "3",
-]
+MODEL_PATH = "models/intensity_model_finetuned.pth"
+CLASSES = ["0", "1", "2", "3"]
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".tiff"}
-
-# Confidence threshold — predictions below this are flagged as uncertain
-# (useful later for pseudo-labeling)
 CONFIDENCE_THRESHOLD = 0.95
 
 # -------------------------
-# Image transform (same as eval transform in training)
+# Transform
 # -------------------------
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
@@ -39,9 +30,10 @@ transform = transforms.Compose([
     )
 ])
 
-
+# -------------------------
+# Load model
+# -------------------------
 def load_model():
-    """Load the fine-tuned intensity type model."""
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     model = resnet18(weights=None)
@@ -49,77 +41,38 @@ def load_model():
 
     if not os.path.isfile(MODEL_PATH):
         print(f"Error: Model file not found at {MODEL_PATH}")
-        print("Make sure you have run finetune_flower_type.py first.")
         sys.exit(1)
 
-    model.load_state_dict(torch.load(MODEL_PATH, map_location=device))
+    model.load_state_dict(torch.load(MODEL_PATH, map_location=device, weights_only=False))
     model.to(device)
     model.eval()
 
     return model, device
 
-
+# -------------------------
+# Predict single image
+# -------------------------
 def predict_image(model, device, img_path):
-    """
-    Run inference on a single image.
-    Returns the predicted class, confidence, and all class probabilities.
-    """
-    if not os.path.isfile(img_path):
-        return None, None, None, f"File not found: {img_path}"
-
-    try:
-        image = Image.open(img_path).convert("RGB")
-    except Exception as e:
-        return None, None, None, f"Could not open image: {e}"
-
-    image_tensor = transform(image).unsqueeze(0).to(device)  # Add batch dimension
+    image = Image.open(img_path).convert("RGB")
+    image_tensor = transform(image).unsqueeze(0).to(device)
 
     with torch.no_grad():
-        outputs     = model(image_tensor)
-        probs       = F.softmax(outputs, dim=1).squeeze()  # Convert to probabilities
-        confidence  = probs.max().item()
-        pred_idx    = probs.argmax().item()
-        pred_class  = CLASSES[pred_idx]
+        outputs = model(image_tensor)
+        probs = F.softmax(outputs, dim=1).squeeze()
+        confidence = probs.max().item()
+        pred_idx = probs.argmax().item()
+        pred_class = CLASSES[pred_idx]
 
-    return pred_class, confidence, probs.cpu().tolist(), None
+    return pred_class, confidence
 
-
-def print_prediction(img_path, pred_class, confidence, probs):
-    """Print a clean prediction result for a single image."""
-    print(f"\nImage: {os.path.basename(img_path)}")
-    print("-" * 45)
-
-    uncertain_flag = " ⚠️  LOW CONFIDENCE" if confidence < CONFIDENCE_THRESHOLD else ""
-    print(f"Predicted: {pred_class} ({confidence*100:.1f}%){uncertain_flag}")
-
-    print("\nAll class probabilities:")
-    # Sort by probability descending
-    sorted_probs = sorted(zip(CLASSES, probs), key=lambda x: x[1], reverse=True)
-    for cls, prob in sorted_probs:
-        bar    = "█" * int(prob * 30)
-        marker = " ◄" if cls == pred_class else ""
-        print(f"  {cls:<35} {prob*100:5.1f}%  {bar}{marker}")
-
-
-def predict_single(img_path):
-    """Predict flower type for a single image."""
-    model, device = load_model()
-    pred_class, confidence, probs, error = predict_image(model, device, img_path)
-
-    if error:
-        print(f"Error: {error}")
-        return
-
-    print_prediction(img_path, pred_class, confidence, probs)
-
-
+# -------------------------
+# Predict ONE folder
+# -------------------------
 def predict_folder(folder_path):
-    """Predict flower types for all images in a folder."""
     if not os.path.isdir(folder_path):
         print(f"Error: Folder not found: {folder_path}")
-        sys.exit(1)
+        return
 
-    # Collect all image files
     image_files = [
         os.path.join(folder_path, f)
         for f in sorted(os.listdir(folder_path))
@@ -130,69 +83,83 @@ def predict_folder(folder_path):
         print(f"No images found in {folder_path}")
         return
 
-    print(f"Found {len(image_files)} images in {folder_path}")
+    print(f"\nProcessing {len(image_files)} images in {folder_path}")
 
     model, device = load_model()
 
-    results     = []
-    low_conf    = []
+    results = []
+    site = os.path.basename(folder_path)
 
     for img_path in image_files:
-        pred_class, confidence, probs, error = predict_image(model, device, img_path)
+        filename = os.path.basename(img_path)
 
-        if error:
-            print(f"Skipping {os.path.basename(img_path)}: {error}")
+        # ⚠️ adjust if your filename format is different
+        date = filename.split("_")[0]
+
+        try:
+            pred_class, confidence = predict_image(model, device, img_path)
+        except Exception as e:
+            print(f"Skipping {filename}: {e}")
             continue
 
-        print_prediction(img_path, pred_class, confidence, probs)
-        results.append((img_path, pred_class, confidence))
+        print(f"{filename} → {pred_class} ({confidence*100:.1f}%)")
 
-        if confidence < CONFIDENCE_THRESHOLD:
-            low_conf.append((img_path, pred_class, confidence))
+        results.append({
+            "image": filename,
+            "date": date,
+            "site": site,
+            "intensity": int(pred_class),
+            "confidence": confidence
+        })
 
-    # -------------------------
-    # Summary
-    # -------------------------
-    print("\n" + "=" * 45)
-    print(f"SUMMARY — {len(results)} images processed")
-    print("=" * 45)
+    if len(results) == 0:
+        print("No results to save.")
+        return
 
-    # Count per class
-    from collections import Counter
-    class_counts = Counter(pred for _, pred, _ in results)
-    print("\nPredictions per class:")
-    for cls in CLASSES:
-        count = class_counts.get(cls, 0)
-        print(f"  {cls:<35} {count}")
+    os.makedirs("output", exist_ok=True)
 
-    # Average confidence
-    avg_conf = sum(c for _, _, c in results) / len(results)
-    print(f"\nAverage confidence: {avg_conf*100:.1f}%")
+    df = pd.DataFrame(results)
+    output_file = f"output/{site}_intensity_predictions.csv"
+    df.to_csv(output_file, index=False)
 
-    # Low confidence warnings
-    if low_conf:
-        print(f"\n⚠️  {len(low_conf)} image(s) below {CONFIDENCE_THRESHOLD*100:.0f}% confidence threshold:")
-        for img_path, pred, conf in low_conf:
-            print(f"  {os.path.basename(img_path):<40} {pred} ({conf*100:.1f}%)")
-    else:
-        print(f"\n✓ All predictions above {CONFIDENCE_THRESHOLD*100:.0f}% confidence threshold")
+    print(f"\n✅ Saved CSV to: {output_file}")
+    print(f"Rows saved: {len(df)}")
 
+# -------------------------
+# Predict ALL sites
+# -------------------------
+def predict_all_sites(root_dir):
+    if not os.path.isdir(root_dir):
+        print(f"Error: Root directory not found: {root_dir}")
+        return
+
+    folders = [
+        os.path.join(root_dir, d)
+        for d in os.listdir(root_dir)
+        if os.path.isdir(os.path.join(root_dir, d))
+    ]
+
+    print(f"\nFound {len(folders)} site folders")
+
+    for folder in folders:
+        print("\n" + "=" * 60)
+        print(f"Processing site: {os.path.basename(folder)}")
+        print("=" * 60)
+        predict_folder(folder)
 
 # -------------------------
 # Main
 # -------------------------
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Predict flower type from image(s)")
-    parser.add_argument("--image",  type=str, help="Path to a single image file")
-    parser.add_argument("--folder", type=str, help="Path to a folder of images")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--folder", type=str, help="Path to one folder")
+    parser.add_argument("--all", action="store_true", help="Run on all sites in data/raw")
+
     args = parser.parse_args()
 
-    if args.image and args.folder:
-        print("Error: Please provide either --image or --folder, not both.")
-        sys.exit(1)
-    elif args.image:
-        predict_single(args.image)
-    elif args.folder:
+    if args.folder:
         predict_folder(args.folder)
+    elif args.all:
+        predict_all_sites("data/raw")
     else:
-        parser.print_help()
+        print("Use --folder or --all")
