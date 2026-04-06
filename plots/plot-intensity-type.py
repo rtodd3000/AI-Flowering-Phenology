@@ -89,12 +89,5 @@ for site in grouped["site"].unique():
 
     plt.tight_layout()
 
-    filename = os.path.join(
-        OUTPUT_DIR,
-        f"{site.replace(' ', '_')}_plot.png"
-    )
-
-    plt.savefig(filename)
-    plt.close()
-
-    print(f"✅ Saved plot to: {filename}")
+    # ✅ ONLY show (no saving at all)
+    plt.show()

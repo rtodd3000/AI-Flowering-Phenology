@@ -96,4 +96,5 @@ for site in grouped["site"].unique():
 
     plt.xticks(rotation=45)
     plt.tight_layout()
+    # Produces plots in a pop up window. Close window to move onto next plot or stop.
     plt.show()
