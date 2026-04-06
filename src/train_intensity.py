@@ -124,15 +124,21 @@ test_loader  = DataLoader(test_dataset,  batch_size=16)
 
 # -------------------------
 # Model: ResNet18 with frozen backbone
-# -------------------------
+# -------------------------             
 num_classes = len(train_dataset.classes)
-model = resnet18(weights=ResNet18_Weights.DEFAULT)
+model = resnet18(weights=None)
+model.fc = nn.Linear(model.fc.in_features, 4)  # Match flower type model output
 
-# Freeze all layers — only train the final fc layer
-for param in model.parameters():
-    param.requires_grad = False
+# Load flower type weights into the backbone
+model.load_state_dict(torch.load("../models/flower_type_model_finetuned.pth"))
 
+# Replace the final layer for intensity classification
 model.fc = nn.Linear(model.fc.in_features, num_classes)
+
+# Freeze backbone, only train the new fc layer
+for name, param in model.named_parameters():
+    param.requires_grad = "fc" in name
+
 model = model.to(device)
 
 # -------------------------
