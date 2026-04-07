@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import os
 
 # -------------------------
@@ -77,25 +78,44 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # Plot per site
 # -------------------------
 for site in grouped["site"].unique():
-    plt.figure()
+    plt.figure(figsize=(14, 7)) # Adjust size for pop up window
 
     site_data = grouped[grouped["site"] == site].sort_values("date")
 
     # Smooth it
     site_data["smoothed"] = site_data["intensity_used"].rolling(window=5, min_periods=1).mean()
 
+    # -------------------------
+    # Two lines: raw and smooth
+    # Raw intensity basically goes based on 0, 1, 2, 3 values STRICTLY
+    # Smoothed intensity is more of a trend line that can show gradual changes over time
+    # -------------------------
+    plt.plot(
+        site_data["date"],
+        site_data["intensity_used"],
+        label="Raw Intensity" 
+    )
+
     plt.plot(
         site_data["date"],
         site_data["smoothed"],
-        marker="o"
+        linewidth=2,
+        label="Smoothed Intensity"
     )
 
     plt.title(f"Flowering Intensity Over Time — {site}")
     plt.xlabel("Date")
     plt.ylabel("Flowering Intensity")
+    plt.legend()
 
-    plt.xticks(rotation=45)
+    # --- CLEAN YEAR AXIS ---
+    ax = plt.gca()
+    ax.xaxis.set_major_locator(mdates.YearLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+    ax.xaxis.set_minor_locator(mdates.MonthLocator()) # Show months as minor ticks
+
+    plt.xticks(rotation=30)
+    plt.yticks([0, 1, 2, 3])
+
     plt.tight_layout()
-    # plt.yticks([0, 1, 2, 3]) # Strictly keep the intensity as integers
-    # Produces plots in a pop up window. Close window to move onto next plot or stop.
     plt.show()
