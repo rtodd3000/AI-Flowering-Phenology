@@ -96,5 +96,6 @@ for site in grouped["site"].unique():
 
     plt.xticks(rotation=45)
     plt.tight_layout()
+    # plt.yticks([0, 1, 2, 3]) # Strictly keep the intensity as integers
     # Produces plots in a pop up window. Close window to move onto next plot or stop.
     plt.show()
