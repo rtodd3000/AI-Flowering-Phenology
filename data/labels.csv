@@ -1,103 +1,339 @@
 image_name,site,date,intensity,flower_type
 IMG_4433,Bombax_SE,2020-12-08,0,Bombax Ceiba
-IMG_4541,Bombax_SE,2021-11-13,0,Bombax Ceiba
+IMG_4541,Bombax_SE,2020-12-26,0,Bombax Ceiba
+IMG_7776,Bombax_SE,2021-10-27,0,Bombax Ceiba
+IMG_7818,Bombax_SE,2021-10-31,0,Bombax Ceiba
+IMG_7854,Bombax_SE,2021-11-03,0,Bombax Ceiba
+IMG_7896,Bombax_SE,2021-11-07,0,Bombax Ceiba
+IMG_7919,Bombax_SE,2021-11-10,0,Bombax Ceiba
+IMG_7958,Bombax_SE,2021-11-13,0,Bombax Ceiba
+IMG_7983,Bombax_SE,2021-11-17,0,Bombax Ceiba
 IMG_8028,Bombax_SE,2021-11-21,0,Bombax Ceiba
+IMG_8045,Bombax_SE,2021-11-24,0,Bombax Ceiba
+IMG_8086,Bombax_SE,2021-11-28,0,Bombax Ceiba
+IMG_8108,Bombax_SE,2021-12-01,0,Bombax Ceiba
+IMG_8138,Bombax_SE,2021-12-08,1,Bombax Ceiba
 IMG_8178,Bombax_SE,2021-12-11,1,Bombax Ceiba
+IMG_8213,Bombax_SE,2021-12-15,1,Bombax Ceiba
+IMG_8255,Bombax_SE,2021-12-19,1,Bombax Ceiba
 IMG_8447,Bombax_SE,2022-01-01,2,Bombax Ceiba
-IMG_8599,Bombax_SE,2022-01-16,3,Bombax Ceiba
+IMG_8487,Bombax_SE,2022-01-05,2,Bombax Ceiba
+IMG_8529,Bombax_SE,2022-01-09,2,Bombax Ceiba
+IMG_8558,Bombax_SE,2022-01-13,2,Bombax Ceiba
+IMG_8599,Bombax_SE,2022-01-16,2,Bombax Ceiba
+IMG_8627,Bombax_SE,2022-01-19,2,Bombax Ceiba
+IMG_8669,Bombax_SE,2022-01-23,3,Bombax Ceiba
 IMG_8688,Bombax_SE,2022-01-26,3,Bombax Ceiba
-IMG_8771,Bombax_SE,2022-02-06,3,Bombax Ceiba
-IMG_8856,Bombax_SE,2022-02-20,2,Bombax Ceiba
+IMG_8731,Bombax_SE,2022-01-30,2,Bombax Ceiba
+IMG_8771,Bombax_SE,2022-02-06,2,Bombax Ceiba
+IMG_8814,Bombax_SE,2022-02-13,2,Bombax Ceiba
+IMG_8856,Bombax_SE,2022-02-20,1,Bombax Ceiba
+IMG_8885,Bombax_SE,2022-02-23,1,Bombax Ceiba
 IMG_8925,Bombax_SE,2022-02-27,1,Bombax Ceiba
-IMG_8971,Bombax_SE,2022-03-09,1,Bombax Ceiba
+IMG_8945,Bombax_SE,2022-03-02,1,Bombax Ceiba
+IMG_8971,Bombax_SE,2022-03-09,0,Bombax Ceiba
+IMG_9010,Bombax_SE,2022-03-13,0,Bombax Ceiba
 IMG_9036,Bombax_SE,2022-03-16,0,Bombax Ceiba
+IMG_9080,Bombax_SE,2022-03-20,0,Bombax Ceiba
+IMG_9106,Bombax_SE,2022-03-23,0,Bombax Ceiba
+IMG_9147,Bombax_SE,2022-03-27,0,Bombax Ceiba
 IMG_9176,Bombax_SE,2022-03-30,0,Bombax Ceiba
+IMG_9232,Bombax_SE,2022-04-03,0,Bombax Ceiba
+IMG_9256,Bombax_SE,2022-04-07,0,Bombax Ceiba
+IMG_9298,Bombax_SE,2022-04-10,0,Bombax Ceiba
+IMG_9322,Bombax_SE,2022-04-14,0,Bombax Ceiba
+IMG_9376,Bombax_SE,2022-04-17,0,Bombax Ceiba
+IMG_9402,Bombax_SE,2022-04-20,0,Bombax Ceiba
+IMG_9442,Bombax_SE,2022-04-23,0,Bombax Ceiba
+IMG_9475,Bombax_SE,2022-04-27,0,Bombax Ceiba
+IMG_9514,Bombax_SE,2022-05-01,0,Bombax Ceiba
 IMG_9552,Bombax_SE,2022-05-05,0,Bombax Ceiba
+IMG_9599,Bombax_SE,2022-05-08,0,Bombax Ceiba
+IMG_9638,Bombax_SE,2022-05-11,0,Bombax Ceiba
+IMG_9677,Bombax_SE,2022-05-15,0,Bombax Ceiba
+IMG_9719,Bombax_SE,2022-05-18,0,Bombax Ceiba
 IMG_9761,Bombax_SE,2022-05-22,0,Bombax Ceiba
+IMG_9802,Bombax_SE,2022-05-25,0,Bombax Ceiba
+IMG_9848,Bombax_SE,2022-05-29,0,Bombax Ceiba
+IMG_9893,Bombax_SE,2022-06-01,0,Bombax Ceiba
+IMG_9936,Bombax_SE,2022-06-05,0,Bombax Ceiba
+IMG_0004,Bombax_SE,2022-06-12,0,Bombax Ceiba
+IMG_0049,Bombax_SE,2022-06-16,0,Bombax Ceiba
+IMG_0090,Bombax_SE,2022-06-19,0,Bombax Ceiba
 IMG_0131,Bombax_SE,2022-06-22,0,Bombax Ceiba
+IMG_0172,Bombax_SE,2022-06-25,0,Bombax Ceiba
+IMG_0214,Bombax_SE,2022-06-28,0,Bombax Ceiba
+IMG_0259,Bombax_SE,2022-07-01,0,Bombax Ceiba
+IMG_0378,Bombax_SE,2022-07-18,0,Bombax Ceiba
+IMG_0421,Bombax_SE,2022-07-21,0,Bombax Ceiba
+IMG_0470,Bombax_SE,2022-07-24,0,Bombax Ceiba
+IMG_0515,Bombax_SE,2022-07-27,0,Bombax Ceiba
+IMG_0558,Bombax_SE,2022-07-31,0,Bombax Ceiba
+IMG_0600,Bombax_SE,2022-08-03,0,Bombax Ceiba
+IMG_0647,Bombax_SE,2022-08-07,0,Bombax Ceiba
+IMG_0688,Bombax_SE,2022-08-11,0,Bombax Ceiba
+IMG_0733,Bombax_SE,2022-08-14,0,Bombax Ceiba
+IMG_0780,Bombax_SE,2022-08-18,0,Bombax Ceiba
+IMG_0819,Bombax_SE,2022-08-21,0,Bombax Ceiba
+IMG_0860,Bombax_SE,2022-08-24,0,Bombax Ceiba
+IMG_0910,Bombax_SE,2022-08-28,0,Bombax Ceiba
 IMG_0946,Bombax_SE,2022-08-31,0,Bombax Ceiba
+IMG_0987,Bombax_SE,2022-09-04,0,Bombax Ceiba
+IMG_1016,Bombax_SE,2022-09-07,0,Bombax Ceiba
+IMG_1062,Bombax_SE,2022-09-11,0,Bombax Ceiba
+IMG_1099,Bombax_SE,2022-09-14,0,Bombax Ceiba
+IMG_1144,Bombax_SE,2022-09-18,0,Bombax Ceiba
+IMG_1173,Bombax_SE,2022-09-22,0,Bombax Ceiba
+IMG_1215,Bombax_SE,2022-09-25,0,Bombax Ceiba
+IMG_1244,Bombax_SE,2022-09-29,0,Bombax Ceiba
+IMG_1257,Bombax_SE,2022-10-02,0,Bombax Ceiba
+IMG_1311,Bombax_SE,2022-10-06,0,Bombax Ceiba
+IMG_1325,Bombax_SE,2022-10-09,0,Bombax Ceiba
+IMG_1403,Bombax_SE,2022-10-23,0,Bombax Ceiba
+IMG_1454,Bombax_SE,2022-10-30,0,Bombax Ceiba
+IMG_1511,Bombax_SE,2022-11-03,0,Bombax Ceiba
 IMG_1558,Bombax_SE,2022-11-06,0,Bombax Ceiba
-IMG_1834,Bombax_SE,2022-12-04,1,Bombax Ceiba
+IMG_1598,Bombax_SE,2022-11-13,0,Bombax Ceiba
+IMG_1663,Bombax_SE,2022-11-17,0,Bombax Ceiba
+IMG_1677,Bombax_SE,2022-11-20,0,Bombax Ceiba
+IMG_1717,Bombax_SE,2022-11-24,0,Bombax Ceiba
+IMG_1748,Bombax_SE,2022-11-27,0,Bombax Ceiba
+IMG_1794,Bombax_SE,2022-11-30,0,Bombax Ceiba
+IMG_1834,Bombax_SE,2022-12-04,0,Bombax Ceiba
+IMG_1879,Bombax_SE,2022-12-11,1,Bombax Ceiba
 IMG_1902,Bombax_SE,2022-12-14,1,Bombax Ceiba
+IMG_1948,Bombax_SE,2022-12-22,1,Bombax Ceiba
+IMG_1988,Bombax_SE,2022-12-25,1,Bombax Ceiba
+IMG_2012,Bombax_SE,2022-12-28,1,Bombax Ceiba
+IMG_2055,Bombax_SE,2023-01-01,1,Bombax Ceiba
+IMG_2074,Bombax_SE,2023-01-05,1,Bombax Ceiba
+IMG_2088,Bombax_SE,2023-01-08,1,Bombax Ceiba
 IMG_2135,Bombax_SE,2023-01-12,2,Bombax Ceiba
+IMG_2146,Bombax_SE,2023-01-15,2,Bombax Ceiba
+IMG_2184,Bombax_SE,2023-01-18,2,Bombax Ceiba
 IMG_2200,Bombax_SE,2023-01-19,3,Bombax Ceiba
+IMG_2212,Bombax_SE,2023-01-22,3,Bombax Ceiba
 IMG_2263,Bombax_SE,2023-01-25,3,Bombax Ceiba
-IMG_2515,Bombax_SE,2023-03-05,1,Bombax Ceiba
+IMG_2287,Bombax_SE,2023-02-02,2,Bombax Ceiba
+IMG_2299,Bombax_SE,2023-02-05,2,Bombax Ceiba
+IMG_2339,Bombax_SE,2023-02-09,2,Bombax Ceiba
+IMG_2369,Bombax_SE,2023-02-19,1,Bombax Ceiba
+IMG_2424,Bombax_SE,2023-02-23,1,Bombax Ceiba
+IMG_2437,Bombax_SE,2023-02-26,1,Bombax Ceiba
+IMG_2493,Bombax_SE,2023-03-02,1,Bombax Ceiba
+IMG_2515,Bombax_SE,2023-03-05,0,Bombax Ceiba
+IMG_2575,Bombax_SE,2023-03-09,0,Bombax Ceiba
+IMG_2588,Bombax_SE,2023-03-12,0,Bombax Ceiba
+IMG_2650,Bombax_SE,2023-03-16,0,Bombax Ceiba
 IMG_2662,Bombax_SE,2023-03-19,0,Bombax Ceiba
+IMG_2712,Bombax_SE,2023-03-23,0,Bombax Ceiba
+IMG_2746,Bombax_SE,2023-03-26,0,Bombax Ceiba
+IMG_2820,Bombax_SE,2023-03-30,0,Bombax Ceiba
+IMG_2834,Bombax_SE,2023-04-02,0,Bombax Ceiba
+IMG_2884,Bombax_SE,2023-04-06,0,Bombax Ceiba
+IMG_2926,Bombax_SE,2023-04-10,0,Bombax Ceiba
+IMG_3012,Bombax_SE,2023-04-16,0,Bombax Ceiba
+IMG_3053,Bombax_SE,2023-04-20,0,Bombax Ceiba
+IMG_3097,Bombax_SE,2023-04-23,0,Bombax Ceiba
+IMG_3143,Bombax_SE,2023-04-30,0,Bombax Ceiba
 IMG_3186,Bombax_SE,2023-05-04,0,Bombax Ceiba
+IMG_3228,Bombax_SE,2023-05-07,0,Bombax Ceiba
+IMG_3278,Bombax_SE,2023-05-11,0,Bombax Ceiba
+IMG_3330,Bombax_SE,2023-05-15,0,Bombax Ceiba
+IMG_3378,Bombax_SE,2023-05-19,0,Bombax Ceiba
+IMG_3527,Bombax_SE,2023-06-05,0,Bombax Ceiba
+IMG_3566,Bombax_SE,2023-06-08,0,Bombax Ceiba
+IMG_3612,Bombax_SE,2023-06-11,0,Bombax Ceiba
+IMG_3652,Bombax_SE,2023-06-14,0,Bombax Ceiba
+IMG_3695,Bombax_SE,2023-06-20,0,Bombax Ceiba
 IMG_3742,Bombax_SE,2023-06-23,0,Bombax Ceiba
+IMG_3783,Bombax_SE,2023-06-27,0,Bombax Ceiba
+IMG_3825,Bombax_SE,2023-07-02,0,Bombax Ceiba
+IMG_3866,Bombax_SE,2023-07-06,0,Bombax Ceiba
+IMG_3912,Bombax_SE,2023-07-09,0,Bombax Ceiba
+IMG_3951,Bombax_SE,2023-07-12,0,Bombax Ceiba
+IMG_3990,Bombax_SE,2023-07-16,0,Bombax Ceiba
+IMG_4101,Bombax_SE,2023-07-26,0,Bombax Ceiba
 IMG_4139,Bombax_SE,2023-07-30,0,Bombax Ceiba
+IMG_4181,Bombax_SE,2023-08-03,0,Bombax Ceiba
+IMG_4227,Bombax_SE,2023-08-06,0,Bombax Ceiba
+IMG_4275,Bombax_SE,2023-08-10,0,Bombax Ceiba
+IMG_4318,Bombax_SE,2023-08-13,0,Bombax Ceiba
+IMG_4359,Bombax_SE,2023-08-15,0,Bombax Ceiba
+IMG_4407,Bombax_SE,2023-08-20,0,Bombax Ceiba
+IMG_4454,Bombax_SE,2023-08-24,0,Bombax Ceiba
+IMG_4495,Bombax_SE,2023-08-27,0,Bombax Ceiba
+IMG_4544,Bombax_SE,2023-08-31,0,Bombax Ceiba
+IMG_4589,Bombax_SE,2023-09-03,0,Bombax Ceiba
+IMG_4635,Bombax_SE,2023-09-07,0,Bombax Ceiba
 IMG_4691,Bombax_SE,2023-09-10,0,Bombax Ceiba
+IMG_4741,Bombax_SE,2023-09-17,0,Bombax Ceiba
+IMG_4791,Bombax_SE,2023-09-24,0,Bombax Ceiba
+IMG_4863,Bombax_SE,2023-09-28,0,Bombax Ceiba
+IMG_4873,Bombax_SE,2023-10-01,0,Bombax Ceiba
+IMG_4921,Bombax_SE,2023-10-08,0,Bombax Ceiba
 IMG_4972,Bombax_SE,2023-10-12,0,Bombax Ceiba
+IMG_5013,Bombax_SE,2023-10-15,0,Bombax Ceiba
+IMG_5066,Bombax_SE,2023-10-18,0,Bombax Ceiba
+IMG_5118,Bombax_SE,2023-10-22,0,Bombax Ceiba
+IMG_5195,Bombax_SE,2023-10-28,0,Bombax Ceiba
+IMG_5261,Bombax_SE,2023-11-05,0,Bombax Ceiba
+IMG_5306,Bombax_SE,2023-11-09,0,Bombax Ceiba
+IMG_5348,Bombax_SE,2023-11-12,0,Bombax Ceiba
+IMG_5400,Bombax_SE,2023-11-19,0,Bombax Ceiba
+IMG_5447,Bombax_SE,2023-11-26,0,Bombax Ceiba
+IMG_5495,Bombax_SE,2023-12-03,0,Bombax Ceiba
+IMG_5573,Bombax_SE,2023-12-08,0,Bombax Ceiba
+IMG_5690,Bombax_SE,2023-12-19,1,Bombax Ceiba
 IMG_5702,Bombax_SE,2023-12-24,1,Bombax Ceiba
-IMG_5924,Bombax_SE,2024-01-14,2,Bombax Ceiba
-IMG_5964,Bombax_SE,2024-01-18,3,Bombax Ceiba
-IMG_5973,Bombax_SE,2024-01-21,3,Bombax Ceiba
-IMG_6030,Bombax_SE,2024-01-28,3,Bombax Ceiba
-IMG_6179,Bombax_SE,2024-02-10,3,Bombax Ceiba
-IMG_6342,Bombax_SE,2024-02-22,1,Bombax Ceiba
+IMG_5744,Bombax_SE,2023-12-28,1,Bombax Ceiba
+IMG_5768,Bombax_SE,2023-12-31,1,Bombax Ceiba
+IMG_5810,Bombax_SE,2024-01-02,1,Bombax Ceiba
+IMG_5821,Bombax_SE,2024-01-04,1,Bombax Ceiba
+IMG_5843,Bombax_SE,2024-01-07,1,Bombax Ceiba
+IMG_5901,Bombax_SE,2024-01-11,1,Bombax Ceiba
+IMG_5924,Bombax_SE,2024-01-14,1,Bombax Ceiba
+IMG_5964,Bombax_SE,2024-01-18,2,Bombax Ceiba
+IMG_5973,Bombax_SE,2024-01-21,2,Bombax Ceiba
+IMG_6022,Bombax_SE,2024-01-25,3,Bombax Ceiba
+IMG_6023,Bombax_SE,2024-01-25,3,Bombax Ceiba
+IMG_6030,Bombax_SE,2024-01-28,2,Bombax Ceiba
+IMG_6088,Bombax_SE,2024-02-04,2,Bombax Ceiba
+IMG_6090,Bombax_SE,2024-02-04,2,Bombax Ceiba
+IMG_6179,Bombax_SE,2024-02-10,2,Bombax Ceiba
+IMG_6299,Bombax_SE,2024-02-19,2,Bombax Ceiba
+IMG_6342,Bombax_SE,2024-02-22,2,Bombax Ceiba
+IMG_6361,Bombax_SE,2024-02-25,2,Bombax Ceiba
+IMG_6446,Bombax_SE,2024-03-02,1,Bombax Ceiba
+IMG_6454,Bombax_SE,2024-03-06,1,Bombax Ceiba
 IMG_6483,Bombax_SE,2024-03-10,1,Bombax Ceiba
+IMG_6569,Bombax_SE,2024-03-21,1,Bombax Ceiba
+IMG_6597,Bombax_SE,2024-03-24,1,Bombax Ceiba
+IMG_6642,Bombax_SE,2024-03-29,0,Bombax Ceiba
+IMG_6679,Bombax_SE,2024-03-31,0,Bombax Ceiba
+IMG_6726,Bombax_SE,2024-04-04,0,Bombax Ceiba
+IMG_6751,Bombax_SE,2024-04-07,0,Bombax Ceiba
+IMG_6798,Bombax_SE,2024-04-10,0,Bombax Ceiba
+IMG_6826,Bombax_SE,2024-04-14,0,Bombax Ceiba
+IMG_6877,Bombax_SE,2024-04-17,0,Bombax Ceiba
+IMG_6901,Bombax_SE,2024-04-21,0,Bombax Ceiba
+IMG_6951,Bombax_SE,2024-04-28,0,Bombax Ceiba
+IMG_7001,Bombax_SE,2024-05-04,0,Bombax Ceiba
+IMG_7051,Bombax_SE,2024-05-08,0,Bombax Ceiba
+IMG_7107,Bombax_SE,2024-05-12,0,Bombax Ceiba
+IMG_7153,Bombax_SE,2024-05-19,0,Bombax Ceiba
+IMG_7195,Bombax_SE,2024-05-22,0,Bombax Ceiba
+IMG_7237,Bombax_SE,2024-05-25,0,Bombax Ceiba
+IMG_7400,Bombax_SE,2024-06-11,0,Bombax Ceiba
+IMG_7443,Bombax_SE,2024-06-14,0,Bombax Ceiba
+IMG_7501,Bombax_SE,2024-06-17,0,Bombax Ceiba
+IMG_7545,Bombax_SE,2024-06-20,0,Bombax Ceiba
+IMG_7589,Bombax_SE,2024-06-23,0,Bombax Ceiba
+IMG_7677,Bombax_SE,2024-06-30,0,Bombax Ceiba
+IMG_7727,Bombax_SE,2024-07-03,0,Bombax Ceiba
+IMG_7770,Bombax_SE,2024-07-06,0,Bombax Ceiba
+IMG_7813,Bombax_SE,2024-07-09,0,Bombax Ceiba
+IMG_7857,Bombax_SE,2024-07-12,0,Bombax Ceiba
+IMG_7903,Bombax_SE,2024-07-15,0,Bombax Ceiba
+IMG_7974,Bombax_SE,2024-07-18,0,Bombax Ceiba
+IMG_7987,Bombax_SE,2024-07-21,0,Bombax Ceiba
+IMG_8031,Bombax_SE,2024-07-24,0,Bombax Ceiba
+IMG_8071,Bombax_SE,2024-07-28,0,Bombax Ceiba
+IMG_8116,Bombax_SE,2024-07-31,0,Bombax Ceiba
+IMG_8179,Bombax_SE,2024-08-04,0,Bombax Ceiba
+IMG_8223,Bombax_SE,2024-08-07,0,Bombax Ceiba
 IMG_8286,Bombax_SE,2024-08-10,0,Bombax Ceiba
+IMG_8344,Bombax_SE,2024-08-14,0,Bombax Ceiba
+IMG_8386,Bombax_SE,2024-08-18,0,Bombax Ceiba
+IMG_8433,Bombax_SE,2024-08-24,0,Bombax Ceiba
+IMG_8478,Bombax_SE,2024-08-28,0,Bombax Ceiba
+IMG_8518,Bombax_SE,2024-09-01,0,Bombax Ceiba
+IMG_8556,Bombax_SE,2024-09-08,0,Bombax Ceiba
+IMG_8596,Bombax_SE,2024-09-11,0,Bombax Ceiba
+IMG_8604,Bombax_SE,2024-09-14,0,Bombax Ceiba
+IMG_8640,Bombax_SE,2024-09-18,0,Bombax Ceiba
+IMG_8712,Bombax_SE,2024-09-28,0,Bombax Ceiba
+IMG_8789,Bombax_SE,2024-10-06,0,Bombax Ceiba
+IMG_8803,Bombax_SE,2024-10-09,0,Bombax Ceiba
+IMG_8820,Bombax_SE,2024-10-12,0,Bombax Ceiba
+IMG_8891,Bombax_SE,2024-10-19,0,Bombax Ceiba
+IMG_8911,Bombax_SE,2024-10-27,0,Bombax Ceiba
+IMG_8948,Bombax_SE,2024-11-02,0,Bombax Ceiba
+IMG_9011,Bombax_SE,2024-11-09,0,Bombax Ceiba
+IMG_9053,Bombax_SE,2024-11-17,0,Bombax Ceiba
+IMG_9093,Bombax_SE,2024-11-23,0,Bombax Ceiba
+IMG_9145,Bombax_SE,2024-11-30,0,Bombax Ceiba
+IMG_9192,Bombax_SE,2024-12-07,0,Bombax Ceiba
+IMG_9256 (1),Bombax_SE,2024-12-15,0,Bombax Ceiba
 IMG_9292,Bombax_SE,2024-12-18,0,Bombax Ceiba
-IMG_9455,Bombax_SE,2025-01-11,2,Bombax Ceiba
+IMG_9293,Bombax_SE,2024-12-18,0,Bombax Ceiba
+IMG_9303,Bombax_SE,2024-12-22,0,Bombax Ceiba
+IMG_9336,Bombax_SE,2024-12-22,0,Bombax Ceiba
+IMG_9340,Bombax_SE,2024-12-24,0,Bombax Ceiba
+IMG_9342,Bombax_SE,2024-12-26,0,Bombax Ceiba
+IMG_9359,Bombax_SE,2024-12-28,1,Bombax Ceiba
+IMG_9411,Bombax_SE,2025-01-04,1,Bombax Ceiba
+IMG_9455,Bombax_SE,2025-01-11,1,Bombax Ceiba
+IMG_9492,Bombax_SE,2025-01-19,3,Bombax Ceiba
 IMG_9505,Bombax_SE,2025-01-24,3,Bombax Ceiba
+IMG_9514 (1),Bombax_SE,2025-01-25,3,Bombax Ceiba
+IMG_9551,Bombax_SE,2025-02-01,2,Bombax Ceiba
+IMG_9591,Bombax_SE,2025-02-09,2,Bombax Ceiba
+IMG_9672,Bombax_SE,2025-02-15,1,Bombax Ceiba
+IMG_9695,Bombax_SE,2025-03-01,1,Bombax Ceiba
+IMG_9743,Bombax_SE,2025-03-06,1,Bombax Ceiba
+IMG_9759,Bombax_SE,2025-03-09,1,Bombax Ceiba
+IMG_9800,Bombax_SE,2025-03-15,1,Bombax Ceiba
+IMG_9874,Bombax_SE,2025-03-22,1,Bombax Ceiba
+IMG_9919,Bombax_SE,2025-03-30,1,Bombax Ceiba
+IMG_9976,Bombax_SE,2025-04-06,0,Bombax Ceiba
+IMG_0052,Bombax_SE,2025-04-13,0,Bombax Ceiba
+IMG_0118,Bombax_SE,2025-04-20,0,Bombax Ceiba
+IMG_0193,Bombax_SE,2025-04-27,0,Bombax Ceiba
+IMG_0260,Bombax_SE,2025-05-04,0,Bombax Ceiba
+IMG_0305,Bombax_SE,2025-05-11,0,Bombax Ceiba
+IMG_0323,Bombax_SE,2025-05-18,0,Bombax Ceiba
+IMG_0396,Bombax_SE,2025-05-24,0,Bombax Ceiba
+IMG_0521,Bombax_SE,2025-06-04,0,Bombax Ceiba
+IMG_0533,Bombax_SE,2025-06-08,0,Bombax Ceiba
+IMG_0574,Bombax_SE,2025-06-11,0,Bombax Ceiba
 IMG_0641,Bombax_SE,2025-06-15,0,Bombax Ceiba
+IMG_0690,Bombax_SE,2025-06-20,0,Bombax Ceiba
+IMG_0737,Bombax_SE,2025-06-26,0,Bombax Ceiba
+IMG_0768,Bombax_SE,2025-06-29,0,Bombax Ceiba
+IMG_0804,Bombax_SE,2025-07-06,0,Bombax Ceiba
+IMG_0871,Bombax_SE,2025-07-12,0,Bombax Ceiba
+IMG_0949,Bombax_SE,2025-07-19,0,Bombax Ceiba
+IMG_1025,Bombax_SE,2025-07-26,0,Bombax Ceiba
+IMG_1116,Bombax_SE,2025-08-02,0,Bombax Ceiba
+IMG_1343,Bombax_SE,2025-08-17,0,Bombax Ceiba
+IMG_1417,Bombax_SE,2025-08-24,0,Bombax Ceiba
 IMG_1434,Bombax_SE,2025-08-31,0,Bombax Ceiba
-IMG_2489,Bombax_SE,2026-01-08,1,Bombax Ceiba
+IMG_1505,Bombax_SE,2025-09-06,0,Bombax Ceiba
+IMG_1554,Bombax_SE,2025-09-13,0,Bombax Ceiba
+IMG_1601,Bombax_SE,2025-09-21,0,Bombax Ceiba
+IMG_1642,Bombax_SE,2025-09-28,0,Bombax Ceiba
+IMG_1680,Bombax_SE,2025-10-05,0,Bombax Ceiba
+IMG_1766,Bombax_SE,2025-10-12,0,Bombax Ceiba
+IMG_1840,Bombax_SE,2025-10-19,0,Bombax Ceiba
+IMG_1885,Bombax_SE,2025-10-26,0,Bombax Ceiba
+IMG_1979,Bombax_SE,2025-11-02,0,Bombax Ceiba
+IMG_2037,Bombax_SE,2025-11-11,0,Bombax Ceiba
+IMG_2052,Bombax_SE,2025-11-16,0,Bombax Ceiba
+IMG_2119,Bombax_SE,2025-11-23,0,Bombax Ceiba
+IMG_2170,Bombax_SE,2025-12-07,0,Bombax Ceiba
+IMG_2207,Bombax_SE,2025-12-13,0,Bombax Ceiba
+IMG_2255,Bombax_SE,2025-12-21,1,Bombax Ceiba
+IMG_2342,Bombax_SE,2025-12-25,1,Bombax Ceiba
+IMG_2377,Bombax_SE,2025-12-28,1,Bombax Ceiba
+IMG_2442,Bombax_SE,2026-01-01,1,Bombax Ceiba
+IMG_2489,Bombax_SE,2026-01-08,2,Bombax Ceiba
 IMG_2507,Bombax_SE,2026-01-11,2,Bombax Ceiba
 IMG_2661,Bombax_SE,2026-01-15,3,Bombax Ceiba
 IMG_2671,Bombax_SE,2026-01-18,3,Bombax Ceiba
-IMG_2811,Bombax_SE,2026-01-25,3,Bombax Ceiba
-IMG_4429,East-West-Maile,2020-12-08,0,Queen's White Shower Tree
-IMG_5244,East-West-Maile,2021-03-16,0,Queen's White Shower Tree
-IMG_5706,East-West-Maile,2021-05-01,0,Queen's White Shower Tree
-IMG_5850,East-West-Maile,2021-05-11,1,Queen's White Shower Tree
-IMG_5969,East-West-Maile,2022-05-21,2,Queen's White Shower Tree
-IMG_6048,East-West-Maile,2021-05-28,3,Queen's White Shower Tree
-IMG_6160,East-West-Maile,2021-06-07,3,Queen's White Shower Tree
-IMG_6244,East-West-Maile,2021-06-14,3,Queen's White Shower Tree
-IMG_6437,East-West-Maile,2021-07-01,3,Queen's White Shower Tree
-IMG_6597,East-West-Maile,2021-07-15,1,Queen's White Shower Tree
-IMG_6753,East-West-Maile,2021-07-28,1,Queen's White Shower Tree
-IMG_7034,East-West-Maile,2021-08-22,1,Queen's White Shower Tree
-IMG_7272,East-West-Maile,2021-09-12,1,Queen's White Shower Tree
-IMG_7387,East-West-Maile,2021-09-22,0,Queen's White Shower Tree
-IMG_7582,East-West-Maile,2021-10-10,0,Queen's White Shower Tree
-IMG_7729,East-West-Maile,2021-10-24,0,Queen's White Shower Tree
-IMG_8025,East-West-Maile,2021-11-21,0,Queen's White Shower Tree
-IMG_8252,East-West-Maile,2021-12-19,0,Queen's White Shower Tree
-IMG_8728,East-West-Maile,2022-01-30,0,Queen's White Shower Tree
-IMG_9077,East-West-Maile,2022-03-20,0,Queen's White Shower Tree
-IMG_9549,East-West-Maile,2022-05-05,0,Queen's White Shower Tree
-IMG_9718,East-West-Maile,2022-05-18,1,Queen's White Shower Tree
-IMG_9757,East-West-Maile,2022-05-22,2,Queen's White Shower Tree
-IMG_9798,East-West-Maile,2022-05-25,2,Queen's White Shower Tree
-IMG_9845,East-West-Maile,2022-05-29,2,Queen's White Shower Tree
-IMG_0169,East-West-Maile,2022-06-25,3,Queen's White Shower Tree
-IMG_0419,East-West-Maile,2022-07-21,1,Queen's White Shower Tree
-IMG_0554,East-West-Maile,2022-07-31,0,Queen's White Shower Tree
-IMG_0857,East-West-Maile,2022-08-24,1,Queen's White Shower Tree
-IMG_1438,East-West-Maile,2022-10-27,0,Queen's White Shower Tree
-IMG_1753,East-West-Maile,2022-11-27,0,Queen's White Shower Tree
-IMG_2440,East-West-Maile,2023-02-26,0,Queen's White Shower Tree
-IMG_3100,East-West-Maile,2023-04-23,0,Queen's White Shower Tree
-IMG_3529,East-West-Maile,2023-06-05,3,Queen's White Shower Tree
-IMG_3568,East-West-Maile,2023-06-08,3,Queen's White Shower Tree
-IMG_3697,East-West-Maile,2023-06-20,3,Queen's White Shower Tree
-IMG_3827,East-West-Maile,2023-07-02,3,Queen's White Shower Tree
-IMG_6600,East-West-Maile,2024-03-24,0,Queen's White Shower Tree
-IMG_7239,East-West-Maile,2024-05-25,1,Queen's White Shower Tree
-IMG_7402,East-West-Maile,2024-06-11,3,Queen's White Shower Tree
-IMG_8033,East-West-Maile,2024-07-24,1,Queen's White Shower Tree
-IMG_0121,East-West-Maile,2025-04-20,0,Queen's White Shower Tree
-IMG_0535,East-West-Maile,2025-06-08,2,Queen's White Shower Tree
-IMG_0686,East-West-Maile,2025-06-20,3,Queen's White Shower Tree
-IMG_0933,East-West-Maile,2025-07-17,2,Queen's White Shower Tree
-IMG_1119,East-West-Maile,2025-08-02,1,Queen's White Shower Tree
-IMG_1550,East-West-Maile,2025-09-13,2,Queen's White Shower Tree
-IMG_2116,East-West-Maile,2025-11-23,0,Queen's White Shower Tree
-IMG_2326,East-West-Maile,2025-12-25,0,Queen's White Shower Tree
-IMG_2813,East-West-Maile,2026-01-25,0,Queen's White Shower Tree
+IMG_2797,Bombax_SE,2026-01-22,3,Bombax Ceiba
+IMG_2800,Bombax_SE,2026-01-22,3,Bombax Ceiba
+IMG_2811,Bombax_SE,2026-01-25,2,Bombax Ceiba
 IMG_0042,Maile East End,2022-06-16,2,Rainbow Shower Tree
 IMG_0058,Maile East End,2025-04-13,1,Rainbow Shower Tree
 IMG_0084,Maile East End,2022-06-19,3,Rainbow Shower Tree
@@ -115,7 +351,7 @@ IMG_7111,Maile East End,2021-08-29,2,Rainbow Shower Tree
 IMG_9982,Maile East End,2025-04-06,1,Rainbow Shower Tree
 IMG_4695,Maile East End,2021-01-12,0,Rainbow Shower Tree
 IMG_4928,Maile East End,2021-02-09,0,Rainbow Shower Tree
-IMG_2152,Maile East End,2023-01-15,3,Rainbow Shower Tree
+IMG_2152,Maile East End,2023-01-15,0,Rainbow Shower Tree
 IMG_1674,Maile East End,2025-10-05,2,Rainbow Shower Tree
 IMG_0552,Maile East End,2022-07-31,2,Rainbow Shower Tree
 IMG_0579,Maile East End,2025-06-11,3,Rainbow Shower Tree
@@ -148,6 +384,298 @@ IMG_8080,Maile East End,2021-11-28,0,Rainbow Shower Tree
 IMG_8483,Maile East End,2024-08-28,2,Rainbow Shower Tree
 IMG_9100,Maile East End,2023-11-24,1,Rainbow Shower Tree
 IMG_9764,Maile East End,2025-03-09,0,Rainbow Shower Tree
+IMG_0390,Maile East End,2025-05-24,3,Rainbow Shower Tree
+IMG_0416,Maile East End,2022-07-21,2,Rainbow Shower Tree
+IMG_0463,Maile East End,2022-07-24,2,Rainbow Shower Tree
+IMG_0508,Maile East End,2022-07-27,2,Rainbow Shower Tree
+IMG_0515,Maile East End,2025-06-04,3,Rainbow Shower Tree
+IMG_0538,Maile East End,2025-06-08,3,Rainbow Shower Tree
+IMG_0991,Maile East End,2025-07-23,2,Rainbow Shower Tree
+IMG_1031,Maile East End,2025-07-26,2,Rainbow Shower Tree
+IMG_1056,Maile East End,2022-09-11,2,Rainbow Shower Tree
+IMG_1094,Maile East End,2022-09-14,2,Rainbow Shower Tree
+IMG_1122,Maile East End,2025-08-02,2,Rainbow Shower Tree
+IMG_1138,Maile East End,2022-09-18,2,Rainbow Shower Tree
+IMG_1172,Maile East End,2022-09-22,2,Rainbow Shower Tree
+IMG_1210,Maile East End,2022-09-25,2,Rainbow Shower Tree
+IMG_1240,Maile East End,2022-09-29,2,Rainbow Shower Tree
+IMG_1262,Maile East End,2022-10-02,2,Rainbow Shower Tree
+IMG_1330,Maile East End,2022-10-09,2,Rainbow Shower Tree
+IMG_1348,Maile East End,2025-08-17,2,Rainbow Shower Tree
+IMG_1397,Maile East End,2022-10-23,1,Rainbow Shower Tree
+IMG_1411,Maile East End,2025-08-24,2,Rainbow Shower Tree
+IMG_1436,Maile East End,2022-10-27,1,Rainbow Shower Tree
+IMG_1440,Maile East End,2025-08-31,2,Rainbow Shower Tree
+IMG_1459,Maile East End,2022-10-30,1,Rainbow Shower Tree
+IMG_1499,Maile East End,2025-09-06,3,Rainbow Shower Tree
+IMG_1548,Maile East End,2025-09-13,2,Rainbow Shower Tree
+IMG_1551,Maile East End,2022-11-06,1,Rainbow Shower Tree
+IMG_1596,Maile East End,2025-09-21,2,Rainbow Shower Tree
+IMG_1604,Maile East End,2022-11-13,1,Rainbow Shower Tree
+IMG_1636,Maile East End,2025-09-28,2,Rainbow Shower Tree
+IMG_1682,Maile East End,2022-11-20,1,Rainbow Shower Tree
+IMG_1750,Maile East End,2022-11-27,1,Rainbow Shower Tree
+IMG_1760,Maile East End,2025-10-12,2,Rainbow Shower Tree
+IMG_1828,Maile East End,2022-12-04,0,Rainbow Shower Tree
+IMG_1833,Maile East End,2025-10-19,2,Rainbow Shower Tree
+IMG_1874,Maile East End,2022-12-11,0,Rainbow Shower Tree
+IMG_1879,Maile East End,2025-10-26,1,Rainbow Shower Tree
+IMG_1944,Maile East End,2022-12-22,0,Rainbow Shower Tree
+IMG_1971,Maile East End,2025-11-02,1,Rainbow Shower Tree
+IMG_1983,Maile East End,2025-12-25,0,Rainbow Shower Tree
+IMG_2031,Maile East End,2025-11-11,1,Rainbow Shower Tree
+IMG_2049,Maile East End,2023-01-01,0,Rainbow Shower Tree
+IMG_2058,Maile East End,2025-11-16,1,Rainbow Shower Tree
+IMG_2093,Maile East End,2023-01-08,0,Rainbow Shower Tree
+IMG_2114,Maile East End,2025-11-23,1,Rainbow Shower Tree
+IMG_2175,Maile East End,2025-12-07,1,Rainbow Shower Tree
+IMG_2215,Maile East End,2025-12-13,1,Rainbow Shower Tree
+IMG_2218,Maile East End,2023-01-22,0,Rainbow Shower Tree
+IMG_2261,Maile East End,2025-12-21,0,Rainbow Shower Tree
+IMG_2304,Maile East End,2023-02-05,0,Rainbow Shower Tree
+IMG_2324,Maile East End,2025-12-25,0,Rainbow Shower Tree
+IMG_2370,Maile East End,2025-12-28,0,Rainbow Shower Tree
+IMG_2375,Maile East End,2023-02-19,0,Rainbow Shower Tree
+IMG_2436,Maile East End,2026-01-01,0,Rainbow Shower Tree
+IMG_2443,Maile East End,2023-02-26,0,Rainbow Shower Tree
+IMG_2515,Maile East End,2026-01-11,0,Rainbow Shower Tree
+IMG_2521,Maile East End,2023-03-05,0,Rainbow Shower Tree
+IMG_2594,Maile East End,2023-03-12,0,Rainbow Shower Tree
+IMG_2669,Maile East End,2023-03-19,0,Rainbow Shower Tree
+IMG_2676,Maile East End,2026-01-18,0,Rainbow Shower Tree
+IMG_2753,Maile East End,2023-03-26,0,Rainbow Shower Tree
+IMG_2816,Maile East End,2026-01-25,0,Rainbow Shower Tree
+IMG_2838,Maile East End,2023-04-02,0,Rainbow Shower Tree
+IMG_2889,Maile East End,2023-04-06,0,Rainbow Shower Tree
+IMG_2933,Maile East End,2023-04-10,1,Rainbow Shower Tree
+IMG_3017,Maile East End,2023-04-16,1,Rainbow Shower Tree
+IMG_3058,Maile East End,2023-04-20,1,Rainbow Shower Tree
+IMG_3103,Maile East End,2023-04-23,1,Rainbow Shower Tree
+IMG_3147,Maile East End,2023-04-30,2,Rainbow Shower Tree
+IMG_3190,Maile East End,2023-05-04,2,Rainbow Shower Tree
+IMG_3234,Maile East End,2023-05-07,2,Rainbow Shower Tree
+IMG_3335,Maile East End,2023-05-15,2,Rainbow Shower Tree
+IMG_3384,Maile East End,2023-05-19,2,Rainbow Shower Tree
+IMG_3532,Maile East End,2023-06-05,2,Rainbow Shower Tree
+IMG_3571,Maile East End,2023-06-08,3,Rainbow Shower Tree
+IMG_3617,Maile East End,2023-06-11,3,Rainbow Shower Tree
+IMG_3657,Maile East End,2023-06-14,3,Rainbow Shower Tree
+IMG_3700,Maile East End,2023-06-20,3,Rainbow Shower Tree
+IMG_3747,Maile East End,2023-06-23,2,Rainbow Shower Tree
+IMG_3788,Maile East End,2023-06-27,2,Rainbow Shower Tree
+IMG_3830,Maile East End,2023-07-02,2,Rainbow Shower Tree
+IMG_3917,Maile East End,2023-07-09,1,Rainbow Shower Tree
+IMG_3956,Maile East End,2023-07-12,1,Rainbow Shower Tree
+IMG_3995,Maile East End,2023-07-16,1,Rainbow Shower Tree
+IMG_4107,Maile East End,2023-07-26,1,Rainbow Shower Tree
+IMG_4144,Maile East End,2023-07-30,1,Rainbow Shower Tree
+IMG_4186,Maile East End,2023-08-03,1,Rainbow Shower Tree
+IMG_4280,Maile East End,2023-08-10,1,Rainbow Shower Tree
+IMG_4324,Maile East End,2023-08-13,1,Rainbow Shower Tree
+IMG_4365,Maile East End,2023-08-15,1,Rainbow Shower Tree
+IMG_4414,Maile East End,2023-08-20,1,Rainbow Shower Tree
+IMG_4431,Maile East End,2020-12-08,1,Rainbow Shower Tree
+IMG_4460,Maile East End,2023-08-24,1,Rainbow Shower Tree
+IMG_4467,Maile East End,2020-12-15,0,Rainbow Shower Tree
+IMG_4501,Maile East End,2023-08-27,1,Rainbow Shower Tree
+IMG_4526,Maile East End,2020-12-22,0,Rainbow Shower Tree
+IMG_4549,Maile East End,2023-08-31,1,Rainbow Shower Tree
+IMG_4575,Maile East End,2020-12-29,0,Rainbow Shower Tree
+IMG_4594,Maile East End,2023-09-03,1,Rainbow Shower Tree
+IMG_4637,Maile East End,2021-01-05,0,Rainbow Shower Tree
+IMG_4640,Maile East End,2023-09-07,1,Rainbow Shower Tree
+IMG_4696,Maile East End,2023-09-10,1,Rainbow Shower Tree
+IMG_4746,Maile East End,2023-09-17,1,Rainbow Shower Tree
+IMG_4756,Maile East End,2021-01-19,0,Rainbow Shower Tree
+IMG_4796,Maile East End,2023-09-24,2,Rainbow Shower Tree
+IMG_4814,Maile East End,2021-01-25,0,Rainbow Shower Tree
+IMG_4858,Maile East End,2023-09-28,2,Rainbow Shower Tree
+IMG_4869,Maile East End,2021-02-02,0,Rainbow Shower Tree
+IMG_4877,Maile East End,2023-10-01,2,Rainbow Shower Tree
+IMG_4926,Maile East End,2023-10-08,2,Rainbow Shower Tree
+IMG_4977,Maile East End,2023-10-12,2,Rainbow Shower Tree
+IMG_4985,Maile East End,2021-02-16,0,Rainbow Shower Tree
+IMG_5018,Maile East End,2023-10-15,2,Rainbow Shower Tree
+IMG_5053,Maile East End,2021-02-23,0,Rainbow Shower Tree
+IMG_5075,Maile East End,2023-10-19,2,Rainbow Shower Tree
+IMG_5116,Maile East End,2021-03-02,0,Rainbow Shower Tree
+IMG_5123,Maile East End,2023-10-22,2,Rainbow Shower Tree
+IMG_5180,Maile East End,2021-03-10,0,Rainbow Shower Tree
+IMG_5201,Maile East End,2023-10-28,1,Rainbow Shower Tree
+IMG_5242,Maile East End,2021-03-16,0,Rainbow Shower Tree
+IMG_5268,Maile East End,2023-11-05,1,Rainbow Shower Tree
+IMG_5300,Maile East End,2021-03-23,0,Rainbow Shower Tree
+IMG_5312,Maile East End,2023-11-09,1,Rainbow Shower Tree
+IMG_5353,Maile East End,2023-11-12,1,Rainbow Shower Tree
+IMG_5366,Maile East End,2021-03-30,0,Rainbow Shower Tree
+IMG_5405,Maile East End,2023-11-19,1,Rainbow Shower Tree
+IMG_5437,Maile East End,2021-04-06,0,Rainbow Shower Tree
+IMG_5453,Maile East End,2023-11-26,1,Rainbow Shower Tree
+IMG_5502,Maile East End,2023-12-03,0,Rainbow Shower Tree
+IMG_5503,Maile East End,2021-04-13,0,Rainbow Shower Tree
+IMG_5566,Maile East End,2023-12-08,0,Rainbow Shower Tree
+IMG_5588,Maile East End,2021-04-21,1,Rainbow Shower Tree
+IMG_5626,Maile East End,2021-04-25,1,Rainbow Shower Tree
+IMG_5663,Maile East End,2021-04-28,1,Rainbow Shower Tree
+IMG_5704,Maile East End,2021-05-01,1,Rainbow Shower Tree
+IMG_5708,Maile East End,2023-12-24,0,Rainbow Shower Tree
+IMG_5745,Maile East End,2021-05-04,1,Rainbow Shower Tree
+IMG_5776,Maile East End,2023-12-31,0,Rainbow Shower Tree
+IMG_5800,Maile East End,2021-05-08,2,Rainbow Shower Tree
+IMG_5848,Maile East End,2021-05-11,2,Rainbow Shower Tree
+IMG_5849,Maile East End,2024-01-07,0,Rainbow Shower Tree
+IMG_5890,Maile East End,2021-05-14,2,Rainbow Shower Tree
+IMG_5928,Maile East End,2021-05-18,2,Rainbow Shower Tree
+IMG_5930,Maile East End,2024-01-14,0,Rainbow Shower Tree
+IMG_5967,Maile East End,2021-05-21,2,Rainbow Shower Tree
+IMG_5979,Maile East End,2024-01-21,0,Rainbow Shower Tree
+IMG_6004,Maile East End,2021-05-25,3,Rainbow Shower Tree
+IMG_6036,Maile East End,2024-01-28,0,Rainbow Shower Tree
+IMG_6046,Maile East End,2021-05-28,3,Rainbow Shower Tree
+IMG_6063,Maile East End,2021-06-01,3,Rainbow Shower Tree
+IMG_6095,Maile East End,2024-02-04,0,Rainbow Shower Tree
+IMG_6118,Maile East End,2021-06-04,3,Rainbow Shower Tree
+IMG_6158,Maile East End,2021-06-07,3,Rainbow Shower Tree
+IMG_6172,Maile East End,2024-02-10,0,Rainbow Shower Tree
+IMG_6197,Maile East End,2021-06-10,3,Rainbow Shower Tree
+IMG_6242,Maile East End,2021-06-14,3,Rainbow Shower Tree
+IMG_6284,Maile East End,2021-06-17,3,Rainbow Shower Tree
+IMG_6323,Maile East End,2021-06-21,3,Rainbow Shower Tree
+IMG_6366,Maile East End,2021-06-24,3,Rainbow Shower Tree
+IMG_6367,Maile East End,2024-02-25,0,Rainbow Shower Tree
+IMG_6383,Maile East End,2021-06-28,3,Rainbow Shower Tree
+IMG_6435,Maile East End,2021-07-01,3,Rainbow Shower Tree
+IMG_6436,Maile East End,2024-03-02,0,Rainbow Shower Tree
+IMG_6477,Maile East End,2021-07-04,2,Rainbow Shower Tree
+IMG_6488,Maile East End,2024-03-10,0,Rainbow Shower Tree
+IMG_6514,Maile East End,2021-07-08,2,Rainbow Shower Tree
+IMG_6553,Maile East End,2021-07-11,2,Rainbow Shower Tree
+IMG_6596,Maile East End,2021-07-15,2,Rainbow Shower Tree
+IMG_6603,Maile East End,2024-03-24,0,Rainbow Shower Tree
+IMG_6635,Maile East End,2021-07-18,2,Rainbow Shower Tree
+IMG_6674,Maile East End,2021-07-21,1,Rainbow Shower Tree
+IMG_6684,Maile East End,2024-03-31,0,Rainbow Shower Tree
+IMG_6713,Maile East End,2021-07-24,1,Rainbow Shower Tree
+IMG_6756,Maile East End,2024-04-07,1,Rainbow Shower Tree
+IMG_6789,Maile East End,2021-08-01,0,Rainbow Shower Tree
+IMG_6828,Maile East End,2021-08-04,1,Rainbow Shower Tree
+IMG_6832,Maile East End,2024-04-14,0,Rainbow Shower Tree
+IMG_6867,Maile East End,2021-08-08,1,Rainbow Shower Tree
+IMG_6906 (1),Maile East End,2024-04-21,0,Rainbow Shower Tree
+IMG_6906,Maile East End,2021-08-12,1,Rainbow Shower Tree
+IMG_6946,Maile East End,2021-08-15,2,Rainbow Shower Tree
+IMG_6957,Maile East End,2024-04-28,0,Rainbow Shower Tree
+IMG_6987,Maile East End,2021-08-19,1,Rainbow Shower Tree
+IMG_7005,Maile East End,2024-05-04,0,Rainbow Shower Tree
+IMG_7032,Maile East End,2021-08-22,2,Rainbow Shower Tree
+IMG_7056,Maile East End,2024-05-08,0,Rainbow Shower Tree
+IMG_7071,Maile East End,2021-08-26,2,Rainbow Shower Tree
+IMG_7112,Maile East End,2024-05-12,1,Rainbow Shower Tree
+IMG_7154,Maile East End,2021-09-02,2,Rainbow Shower Tree
+IMG_7158,Maile East End,2024-05-19,1,Rainbow Shower Tree
+IMG_7191,Maile East End,2021-09-06,2,Rainbow Shower Tree
+IMG_7200,Maile East End,2024-05-22,1,Rainbow Shower Tree
+IMG_7230,Maile East End,2021-09-09,2,Rainbow Shower Tree
+IMG_7242,Maile East End,2024-05-25,1,Rainbow Shower Tree
+IMG_7270,Maile East End,2021-09-12,2,Rainbow Shower Tree
+IMG_7311,Maile East End,2021-09-16,1,Rainbow Shower Tree
+IMG_7349,Maile East End,2021-09-19,2,Rainbow Shower Tree
+IMG_7385,Maile East End,2021-09-22,2,Rainbow Shower Tree
+IMG_7406,Maile East End,2024-06-11,2,Rainbow Shower Tree
+IMG_7424,Maile East End,2021-09-26,2,Rainbow Shower Tree
+IMG_7448,Maile East End,2024-06-14,3,Rainbow Shower Tree
+IMG_7462,Maile East End,2021-09-29,2,Rainbow Shower Tree
+IMG_7501,Maile East End,2021-10-03,1,Rainbow Shower Tree
+IMG_7507,Maile East End,2024-06-17,3,Rainbow Shower Tree
+IMG_7540,Maile East End,2021-10-06,1,Rainbow Shower Tree
+IMG_7551,Maile East End,2024-06-20,3,Rainbow Shower Tree
+IMG_7579,Maile East End,2021-10-10,1,Rainbow Shower Tree
+IMG_7594,Maile East End,2024-06-23,3,Rainbow Shower Tree
+IMG_7617,Maile East End,2021-10-13,1,Rainbow Shower Tree
+IMG_7653,Maile East End,2021-10-17,1,Rainbow Shower Tree
+IMG_7682,Maile East End,2024-06-30,3,Rainbow Shower Tree
+IMG_7689,Maile East End,2021-10-20,1,Rainbow Shower Tree
+IMG_7727,Maile East End,2021-10-24,1,Rainbow Shower Tree
+IMG_7733,Maile East End,2024-07-03,3,Rainbow Shower Tree
+IMG_7769,Maile East End,2021-10-27,1,Rainbow Shower Tree
+IMG_7775,Maile East End,2024-07-06,3,Rainbow Shower Tree
+IMG_7812,Maile East End,2021-10-31,1,Rainbow Shower Tree
+IMG_7863,Maile East End,2024-07-12,3,Rainbow Shower Tree
+IMG_7891,Maile East End,2021-11-07,1,Rainbow Shower Tree
+IMG_7908,Maile East End,2024-07-15,3,Rainbow Shower Tree
+IMG_7952,Maile East End,2021-11-13,0,Rainbow Shower Tree
+IMG_7967,Maile East End,2024-07-18,3,Rainbow Shower Tree
+IMG_7992,Maile East End,2024-07-21,3,Rainbow Shower Tree
+IMG_8023,Maile East End,2021-11-21,0,Rainbow Shower Tree
+IMG_8036,Maile East End,2024-07-24,3,Rainbow Shower Tree
+IMG_8076,Maile East End,2024-07-28,3,Rainbow Shower Tree
+IMG_8121,Maile East End,2024-07-31,3,Rainbow Shower Tree
+IMG_8173,Maile East End,2021-12-11,0,Rainbow Shower Tree
+IMG_8184,Maile East End,2024-08-04,2,Rainbow Shower Tree
+IMG_8228,Maile East End,2024-08-07,2,Rainbow Shower Tree
+IMG_8250,Maile East End,2021-12-19,0,Rainbow Shower Tree
+IMG_8291,Maile East End,2024-08-10,2,Rainbow Shower Tree
+IMG_8351,Maile East End,2024-08-14,2,Rainbow Shower Tree
+IMG_8391,Maile East End,2024-08-18,2,Rainbow Shower Tree
+IMG_8482,Maile East End,2024-08-24,0,Rainbow Shower Tree
+IMG_8523 (1),Maile East End,2024-09-01,2,Rainbow Shower Tree
+IMG_8523,Maile East End,2022-01-09,0,Rainbow Shower Tree
+IMG_8562,Maile East End,2024-09-08,2,Rainbow Shower Tree
+IMG_8594,Maile East End,2022-01-16,0,Rainbow Shower Tree
+IMG_8609,Maile East End,2024-09-14,2,Rainbow Shower Tree
+IMG_8645,Maile East End,2024-09-18,2,Rainbow Shower Tree
+IMG_8664,Maile East End,2022-01-23,0,Rainbow Shower Tree
+IMG_8717,Maile East End,2024-09-28,2,Rainbow Shower Tree
+IMG_8726,Maile East End,2022-01-30,0,Rainbow Shower Tree
+IMG_8766,Maile East End,2022-02-06,0,Rainbow Shower Tree
+IMG_8783,Maile East End,2024-10-06,2,Rainbow Shower Tree
+IMG_8808 (1),Maile East End,2024-10-09,2,Rainbow Shower Tree
+IMG_8808,Maile East End,2022-02-13,0,Rainbow Shower Tree
+IMG_8825,Maile East End,2024-10-12,2,Rainbow Shower Tree
+IMG_8851,Maile East End,2022-02-20,0,Rainbow Shower Tree
+IMG_8884,Maile East End,2024-10-19,2,Rainbow Shower Tree
+IMG_8916,Maile East End,2024-10-27,1,Rainbow Shower Tree
+IMG_8920,Maile East End,2022-02-27,0,Rainbow Shower Tree
+IMG_8953,Maile East End,2024-11-02,1,Rainbow Shower Tree
+IMG_9016,Maile East End,2024-11-09,1,Rainbow Shower Tree
+IMG_9058,Maile East End,2024-11-17,1,Rainbow Shower Tree
+IMG_9075,Maile East End,2022-03-20,0,Rainbow Shower Tree
+IMG_9140,Maile East End,2022-03-27,0,Rainbow Shower Tree
+IMG_9144,Maile East End,2022-03-27,0,Rainbow Shower Tree
+IMG_9150,Maile East End,2024-11-30,1,Rainbow Shower Tree
+IMG_9200,Maile East End,2024-12-07,1,Rainbow Shower Tree
+IMG_9227,Maile East End,2022-04-03,0,Rainbow Shower Tree
+IMG_9261,Maile East End,2024-12-15,0,Rainbow Shower Tree
+IMG_9293,Maile East End,2022-04-10,0,Rainbow Shower Tree
+IMG_9308,Maile East End,2024-12-22,0,Rainbow Shower Tree
+IMG_9365,Maile East End,2024-12-28,0,Rainbow Shower Tree
+IMG_9369,Maile East End,2022-04-17,0,Rainbow Shower Tree
+IMG_9417,Maile East End,2025-01-04,0,Rainbow Shower Tree
+IMG_9437,Maile East End,2022-04-23,0,Rainbow Shower Tree
+IMG_9461,Maile East End,2025-01-11,0,Rainbow Shower Tree
+IMG_9472,Maile East End,2022-04-27,0,Rainbow Shower Tree
+IMG_9509,Maile East End,2022-05-01,0,Rainbow Shower Tree
+IMG_9519,Maile East End,2025-01-25,0,Rainbow Shower Tree
+IMG_9547,Maile East End,2022-05-05,0,Rainbow Shower Tree
+IMG_9556,Maile East End,2025-02-01,0,Rainbow Shower Tree
+IMG_9593,Maile East End,2022-05-08,0,Rainbow Shower Tree
+IMG_9597,Maile East End,2025-02-09,0,Rainbow Shower Tree
+IMG_9633,Maile East End,2022-05-11,0,Rainbow Shower Tree
+IMG_9642,Maile East End,2025-02-15,0,Rainbow Shower Tree
+IMG_9673,Maile East End,2022-05-15,1,Rainbow Shower Tree
+IMG_9702,Maile East End,2025-03-01,0,Rainbow Shower Tree
+IMG_9712,Maile East End,2022-05-18,1,Rainbow Shower Tree
+IMG_9754,Maile East End,2022-05-22,1,Rainbow Shower Tree
+IMG_9797,Maile East End,2022-05-25,2,Rainbow Shower Tree
+IMG_9805,Maile East End,2025-03-15,0,Rainbow Shower Tree
+IMG_9843,Maile East End,2022-05-29,2,Rainbow Shower Tree
+IMG_9881,Maile East End,2025-03-22,1,Rainbow Shower Tree
+IMG_9886,Maile East End,2022-06-01,2,Rainbow Shower Tree
+IMG_9924,Maile East End,2025-03-30,0,Rainbow Shower Tree
+IMG_9931,Maile East End,2022-06-05,2,Rainbow Shower Tree
+IMG_9958,Maile East End,2022-06-09,2,Rainbow Shower Tree
+IMG_9960,Maile East End,2022-06-09,3,Rainbow Shower Tree
+IMG_9996,Maile East End,2022-06-12,2,Rainbow Shower Tree
 IMG_4424,Maile Library,2020-12-08,0,Lunalilo Yellow Shower Tree
 IMG_4462,Maile Library,2020-12-15,0,Lunalilo Yellow Shower Tree
 IMG_4521,Maile Library,2020-12-22,0,Lunalilo Yellow Shower Tree
@@ -171,14 +699,14 @@ IMG_5584,Maile Library,2021-04-21,1,Lunalilo Yellow Shower Tree
 IMG_5622,Maile Library,2021-04-25,1,Lunalilo Yellow Shower Tree
 IMG_5659,Maile Library,2021-04-28,1,Lunalilo Yellow Shower Tree
 IMG_5698,Maile Library,2021-05-01,1,Lunalilo Yellow Shower Tree
-IMG_5741,Maile Library,2021-05-04,2,Lunalilo Yellow Shower Tree
-IMG_5795,Maile Library,2021-05-08,2,Lunalilo Yellow Shower Tree
-IMG_5844,Maile Library,2021-05-11,2,Lunalilo Yellow Shower Tree
-IMG_5886,Maile Library,2021-05-14,2,Lunalilo Yellow Shower Tree
-IMG_5925,Maile Library,2021-05-18,2,Lunalilo Yellow Shower Tree
-IMG_5964,Maile Library,2021-05-21,3,Lunalilo Yellow Shower Tree
-IMG_5999,Maile Library,2021-05-25,3,Lunalilo Yellow Shower Tree
-IMG_6042,Maile Library,2021-05-28,3,Lunalilo Yellow Shower Tree
+IMG_5741,Maile Library,2021-05-04,1,Lunalilo Yellow Shower Tree
+IMG_5795,Maile Library,2021-05-08,1,Lunalilo Yellow Shower Tree
+IMG_5844,Maile Library,2021-05-11,1,Lunalilo Yellow Shower Tree
+IMG_5886,Maile Library,2021-05-14,1,Lunalilo Yellow Shower Tree
+IMG_5925,Maile Library,2021-05-18,1,Lunalilo Yellow Shower Tree
+IMG_5964,Maile Library,2021-05-21,1,Lunalilo Yellow Shower Tree
+IMG_5999,Maile Library,2021-05-25,2,Lunalilo Yellow Shower Tree
+IMG_6042,Maile Library,2021-05-28,2,Lunalilo Yellow Shower Tree
 IMG_6068,Maile Library,2021-06-01,3,Lunalilo Yellow Shower Tree
 IMG_6114,Maile Library,2021-06-04,3,Lunalilo Yellow Shower Tree
 IMG_6154,Maile Library,2021-06-07,3,Lunalilo Yellow Shower Tree
@@ -191,24 +719,24 @@ IMG_6388,Maile Library,2021-06-28,3,Lunalilo Yellow Shower Tree
 IMG_6431,Maile Library,2021-07-01,3,Lunalilo Yellow Shower Tree
 IMG_6473,Maile Library,2021-07-04,3,Lunalilo Yellow Shower Tree
 IMG_6510,Maile Library,2021-07-08,3,Lunalilo Yellow Shower Tree
-IMG_6549,Maile Library,2021-07-11,3,Lunalilo Yellow Shower Tree
-IMG_6594,Maile Library,2021-07-15,3,Lunalilo Yellow Shower Tree
-IMG_6631,Maile Library,2021-07-18,3,Lunalilo Yellow Shower Tree
-IMG_6670,Maile Library,2021-07-21,3,Lunalilo Yellow Shower Tree
-IMG_6709,Maile Library,2021-07-24,3,Lunalilo Yellow Shower Tree
-IMG_6747,Maile Library,2021-07-28,3,Lunalilo Yellow Shower Tree
+IMG_6549,Maile Library,2021-07-11,2,Lunalilo Yellow Shower Tree
+IMG_6594,Maile Library,2021-07-15,2,Lunalilo Yellow Shower Tree
+IMG_6631,Maile Library,2021-07-18,2,Lunalilo Yellow Shower Tree
+IMG_6670,Maile Library,2021-07-21,2,Lunalilo Yellow Shower Tree
+IMG_6709,Maile Library,2021-07-24,2,Lunalilo Yellow Shower Tree
+IMG_6747,Maile Library,2021-07-28,2,Lunalilo Yellow Shower Tree
 IMG_6785,Maile Library,2021-08-01,2,Lunalilo Yellow Shower Tree
 IMG_6825,Maile Library,2021-08-04,2,Lunalilo Yellow Shower Tree
-IMG_6863,Maile Library,2021-08-08,3,Lunalilo Yellow Shower Tree
-IMG_6902,Maile Library,2021-08-12,3,Lunalilo Yellow Shower Tree
-IMG_6942,Maile Library,2021-08-15,3,Lunalilo Yellow Shower Tree
-IMG_6983,Maile Library,2021-08-19,3,Lunalilo Yellow Shower Tree
-IMG_7028,Maile Library,2021-08-22,3,Lunalilo Yellow Shower Tree
-IMG_7067,Maile Library,2021-08-26,3,Lunalilo Yellow Shower Tree
-IMG_7107,Maile Library,2021-08-29,3,Lunalilo Yellow Shower Tree
-IMG_7150,Maile Library,2021-09-02,3,Lunalilo Yellow Shower Tree
-IMG_7187,Maile Library,2021-09-06,3,Lunalilo Yellow Shower Tree
-IMG_7226,Maile Library,2021-09-09,3,Lunalilo Yellow Shower Tree
+IMG_6863,Maile Library,2021-08-08,2,Lunalilo Yellow Shower Tree
+IMG_6902,Maile Library,2021-08-12,2,Lunalilo Yellow Shower Tree
+IMG_6942,Maile Library,2021-08-15,2,Lunalilo Yellow Shower Tree
+IMG_6983,Maile Library,2021-08-19,2,Lunalilo Yellow Shower Tree
+IMG_7028,Maile Library,2021-08-22,2,Lunalilo Yellow Shower Tree
+IMG_7067,Maile Library,2021-08-26,2,Lunalilo Yellow Shower Tree
+IMG_7107,Maile Library,2021-08-29,2,Lunalilo Yellow Shower Tree
+IMG_7150,Maile Library,2021-09-02,2,Lunalilo Yellow Shower Tree
+IMG_7187,Maile Library,2021-09-06,2,Lunalilo Yellow Shower Tree
+IMG_7226,Maile Library,2021-09-09,2,Lunalilo Yellow Shower Tree
 IMG_7266,Maile Library,2021-09-12,2,Lunalilo Yellow Shower Tree
 IMG_7307,Maile Library,2021-09-16,2,Lunalilo Yellow Shower Tree
 IMG_7345,Maile Library,2021-09-19,2,Lunalilo Yellow Shower Tree
@@ -251,8 +779,8 @@ IMG_9433,Maile Library,2022-04-23,0,Lunalilo Yellow Shower Tree
 IMG_9471,Maile Library,2022-04-27,0,Lunalilo Yellow Shower Tree
 IMG_9505,Maile Library,2022-05-01,0,Lunalilo Yellow Shower Tree
 IMG_9543,Maile Library,2022-05-05,0,Lunalilo Yellow Shower Tree
-IMG_9588,Maile Library,2022-05-08,0,Lunalilo Yellow Shower Tree
 IMG_9589,Maile Library,2022-05-08,0,Lunalilo Yellow Shower Tree
+IMG_9588,Maile Library,2022-05-08,0,Lunalilo Yellow Shower Tree
 IMG_9629,Maile Library,2022-05-11,1,Lunalilo Yellow Shower Tree
 IMG_9669,Maile Library,2022-05-15,1,Lunalilo Yellow Shower Tree
 IMG_9708,Maile Library,2022-05-18,2,Lunalilo Yellow Shower Tree
@@ -260,7 +788,7 @@ IMG_9750,Maile Library,2022-05-22,2,Lunalilo Yellow Shower Tree
 IMG_9793,Maile Library,2022-05-25,2,Lunalilo Yellow Shower Tree
 IMG_9839,Maile Library,2022-05-29,2,Lunalilo Yellow Shower Tree
 IMG_9882,Maile Library,2022-06-01,2,Lunalilo Yellow Shower Tree
-IMG_9927,Maile Library,2022-06-05,3,Lunalilo Yellow Shower Tree
+IMG_9927,Maile Library,2022-06-05,2,Lunalilo Yellow Shower Tree
 IMG_9954,Maile Library,2022-06-09,3,Lunalilo Yellow Shower Tree
 IMG_9992,Maile Library,2022-06-12,3,Lunalilo Yellow Shower Tree
 IMG_0038,Maile Library,2022-06-16,3,Lunalilo Yellow Shower Tree
@@ -269,12 +797,12 @@ IMG_0120,Maile Library,2022-06-22,3,Lunalilo Yellow Shower Tree
 IMG_0163,Maile Library,2022-06-25,3,Lunalilo Yellow Shower Tree
 IMG_0204,Maile Library,2022-06-28,3,Lunalilo Yellow Shower Tree
 IMG_0248,Maile Library,2022-07-01,3,Lunalilo Yellow Shower Tree
-IMG_0366,Maile Library,2022-07-18,3,Lunalilo Yellow Shower Tree
-IMG_0410,Maile Library,2022-07-21,3,Lunalilo Yellow Shower Tree
-IMG_0459,Maile Library,2022-07-24,3,Lunalilo Yellow Shower Tree
-IMG_0504,Maile Library,2022-07-27,3,Lunalilo Yellow Shower Tree
-IMG_0547,Maile Library,2022-07-31,3,Lunalilo Yellow Shower Tree
-IMG_0589,Maile Library,2022-08-03,3,Lunalilo Yellow Shower Tree
+IMG_0366,Maile Library,2022-07-18,2,Lunalilo Yellow Shower Tree
+IMG_0410,Maile Library,2022-07-21,2,Lunalilo Yellow Shower Tree
+IMG_0459,Maile Library,2022-07-24,2,Lunalilo Yellow Shower Tree
+IMG_0504,Maile Library,2022-07-27,2,Lunalilo Yellow Shower Tree
+IMG_0547,Maile Library,2022-07-31,2,Lunalilo Yellow Shower Tree
+IMG_0589,Maile Library,2022-08-03,2,Lunalilo Yellow Shower Tree
 IMG_0637,Maile Library,2022-08-07,2,Lunalilo Yellow Shower Tree
 IMG_0678,Maile Library,2022-08-11,2,Lunalilo Yellow Shower Tree
 IMG_0723,Maile Library,2022-08-14,2,Lunalilo Yellow Shower Tree
@@ -297,6 +825,552 @@ IMG_1432,Maile Library,2022-10-27,1,Lunalilo Yellow Shower Tree
 IMG_1464,Maile Library,2022-10-30,1,Lunalilo Yellow Shower Tree
 IMG_1508,Maile Library,2022-11-03,1,Lunalilo Yellow Shower Tree
 IMG_1547,Maile Library,2022-11-06,0,Lunalilo Yellow Shower Tree
+IMG_1582,Maile Library,2022-11-10,0,Lunalilo Yellow Shower Tree
+IMG_1608,Maile Library,2022-11-13,0,Lunalilo Yellow Shower Tree
+IMG_1657,Maile Library,2022-11-17,0,Lunalilo Yellow Shower Tree
+IMG_1688,Maile Library,2022-11-20,0,Lunalilo Yellow Shower Tree
+IMG_1755,Maile Library,2022-11-27,0,Lunalilo Yellow Shower Tree
+IMG_1824,Maile Library,2022-12-04,0,Lunalilo Yellow Shower Tree
+IMG_1870,Maile Library,2022-12-11,0,Lunalilo Yellow Shower Tree
+IMG_1940,Maile Library,2022-12-22,0,Lunalilo Yellow Shower Tree
+IMG_1979,Maile Library,2022-12-25,0,Lunalilo Yellow Shower Tree
+IMG_2046,Maile Library,2023-01-01,0,Lunalilo Yellow Shower Tree
+IMG_2098,Maile Library,2023-01-08,0,Lunalilo Yellow Shower Tree
+IMG_2157,Maile Library,2023-01-15,0,Lunalilo Yellow Shower Tree
+IMG_2221,Maile Library,2023-01-22,0,Lunalilo Yellow Shower Tree
+IMG_2307,Maile Library,2023-02-05,0,Lunalilo Yellow Shower Tree
+IMG_2377,Maile Library,2023-02-19,0,Lunalilo Yellow Shower Tree
+IMG_2446,Maile Library,2023-02-26,0,Lunalilo Yellow Shower Tree
+IMG_2524,Maile Library,2023-03-05,0,Lunalilo Yellow Shower Tree
+IMG_2600,Maile Library,2023-03-12,0,Lunalilo Yellow Shower Tree
+IMG_2672,Maile Library,2023-03-19,0,Lunalilo Yellow Shower Tree
+IMG_2755,Maile Library,2023-03-26,0,Lunalilo Yellow Shower Tree
+IMG_2843,Maile Library,2023-04-02,0,Lunalilo Yellow Shower Tree
+IMG_2892,Maile Library,2023-04-06,0,Lunalilo Yellow Shower Tree
+IMG_2965,Maile Library,2023-04-10,0,Lunalilo Yellow Shower Tree
+IMG_3022,Maile Library,2023-04-16,0,Lunalilo Yellow Shower Tree
+IMG_3063,Maile Library,2023-04-20,0,Lunalilo Yellow Shower Tree
+IMG_3108,Maile Library,2023-04-23,1,Lunalilo Yellow Shower Tree
+IMG_3150,Maile Library,2023-04-30,1,Lunalilo Yellow Shower Tree
+IMG_3193,Maile Library,2023-05-04,1,Lunalilo Yellow Shower Tree
+IMG_3238,Maile Library,2023-05-07,1,Lunalilo Yellow Shower Tree
+IMG_3237,Maile Library,2023-05-07,1,Lunalilo Yellow Shower Tree
+IMG_3290,Maile Library,2023-05-11,1,Lunalilo Yellow Shower Tree
+IMG_3339,Maile Library,2023-05-15,1,Lunalilo Yellow Shower Tree
+IMG_3387,Maile Library,2023-05-19,1,Lunalilo Yellow Shower Tree
+IMG_3537,Maile Library,2023-06-05,2,Lunalilo Yellow Shower Tree
+IMG_3574,Maile Library,2023-06-08,3,Lunalilo Yellow Shower Tree
+IMG_3621,Maile Library,2023-06-11,3,Lunalilo Yellow Shower Tree
+IMG_3662,Maile Library,2023-06-14,3,Lunalilo Yellow Shower Tree
+IMG_3705,Maile Library,2023-06-20,3,Lunalilo Yellow Shower Tree
+IMG_3751,Maile Library,2023-06-23,3,Lunalilo Yellow Shower Tree
+IMG_3793,Maile Library,2023-06-27,3,Lunalilo Yellow Shower Tree
+IMG_3835,Maile Library,2023-07-02,2,Lunalilo Yellow Shower Tree
+IMG_3876,Maile Library,2023-07-06,2,Lunalilo Yellow Shower Tree
+IMG_3922,Maile Library,2023-07-09,2,Lunalilo Yellow Shower Tree
+IMG_3961,Maile Library,2023-07-12,2,Lunalilo Yellow Shower Tree
+IMG_3999,Maile Library,2023-07-16,2,Lunalilo Yellow Shower Tree
+IMG_4112,Maile Library,2023-07-26,2,Lunalilo Yellow Shower Tree
+IMG_4148,Maile Library,2023-07-30,2,Lunalilo Yellow Shower Tree
+IMG_4191,Maile Library,2023-08-03,2,Lunalilo Yellow Shower Tree
+IMG_4237,Maile Library,2023-08-06,2,Lunalilo Yellow Shower Tree
+IMG_4285,Maile Library,2023-08-10,1,Lunalilo Yellow Shower Tree
+IMG_4329,Maile Library,2023-08-13,1,Lunalilo Yellow Shower Tree
+IMG_4370,Maile Library,2023-08-15,1,Lunalilo Yellow Shower Tree
+IMG_4419,Maile Library,2023-08-20,1,Lunalilo Yellow Shower Tree
+IMG_4465,Maile Library,2023-08-24,1,Lunalilo Yellow Shower Tree
+IMG_4506,Maile Library,2023-08-27,1,Lunalilo Yellow Shower Tree
+IMG_4553,Maile Library,2023-08-31,1,Lunalilo Yellow Shower Tree
+IMG_4599,Maile Library,2023-09-03,1,Lunalilo Yellow Shower Tree
+IMG_4645,Maile Library,2023-09-07,1,Lunalilo Yellow Shower Tree
+IMG_4701,Maile Library,2023-09-10,1,Lunalilo Yellow Shower Tree
+IMG_4751 (1),Maile Library,2023-09-17,1,Lunalilo Yellow Shower Tree
+IMG_4801,Maile Library,2023-09-24,1,Lunalilo Yellow Shower Tree
+IMG_4856,Maile Library,2023-09-28,1,Lunalilo Yellow Shower Tree
+IMG_4882,Maile Library,2023-10-01,1,Lunalilo Yellow Shower Tree
+IMG_4929,Maile Library,2023-10-08,1,Lunalilo Yellow Shower Tree
+IMG_4982,Maile Library,2023-10-12,1,Lunalilo Yellow Shower Tree
+IMG_5023,Maile Library,2023-10-15,1,Lunalilo Yellow Shower Tree
+IMG_5079,Maile Library,2023-10-19,1,Lunalilo Yellow Shower Tree
+IMG_5128,Maile Library,2023-10-22,1,Lunalilo Yellow Shower Tree
+IMG_5206,Maile Library,2023-10-28,1,Lunalilo Yellow Shower Tree
+IMG_5272,Maile Library,2023-11-05,1,Lunalilo Yellow Shower Tree
+IMG_5317,Maile Library,2023-11-09,0,Lunalilo Yellow Shower Tree
+IMG_5357,Maile Library,2023-11-12,0,Lunalilo Yellow Shower Tree
+IMG_5410,Maile Library,2023-11-19,0,Lunalilo Yellow Shower Tree
+IMG_5458,Maile Library,2023-11-26,0,Lunalilo Yellow Shower Tree
+IMG_5506,Maile Library,2023-12-03,0,Lunalilo Yellow Shower Tree
+IMG_5562,Maile Library,2023-12-08,0,Lunalilo Yellow Shower Tree
+IMG_5713,Maile Library,2023-12-24,0,Lunalilo Yellow Shower Tree
+IMG_5780,Maile Library,2023-12-31,0,Lunalilo Yellow Shower Tree
+IMG_5854,Maile Library,2024-01-07,0,Lunalilo Yellow Shower Tree
+IMG_5934,Maile Library,2024-01-14,0,Lunalilo Yellow Shower Tree
+IMG_5984,Maile Library,2024-01-21,0,Lunalilo Yellow Shower Tree
+IMG_6041,Maile Library,2024-01-28,0,Lunalilo Yellow Shower Tree
+IMG_6100,Maile Library,2024-02-04,0,Lunalilo Yellow Shower Tree
+IMG_6168,Maile Library,2024-02-10,0,Lunalilo Yellow Shower Tree
+IMG_6309,Maile Library,2024-02-19,0,Lunalilo Yellow Shower Tree
+IMG_6372,Maile Library,2024-02-25,0,Lunalilo Yellow Shower Tree
+IMG_6434,Maile Library,2024-03-02,0,Lunalilo Yellow Shower Tree
+IMG_6493,Maile Library,2024-03-10,0,Lunalilo Yellow Shower Tree
+IMG_6608,Maile Library,2024-03-24,0,Lunalilo Yellow Shower Tree
+IMG_6688,Maile Library,2024-03-31,0,Lunalilo Yellow Shower Tree
+IMG_6762,Maile Library,2024-04-07,0,Lunalilo Yellow Shower Tree
+IMG_6836,Maile Library,2024-04-14,0,Lunalilo Yellow Shower Tree
+IMG_6911,Maile Library,2024-04-21,0,Lunalilo Yellow Shower Tree
+IMG_6962,Maile Library,2024-04-28,0,Lunalilo Yellow Shower Tree
+IMG_7009,Maile Library,2024-05-04,0,Lunalilo Yellow Shower Tree
+IMG_7060,Maile Library,2024-05-08,0,Lunalilo Yellow Shower Tree
+IMG_7117,Maile Library,2024-05-12,0,Lunalilo Yellow Shower Tree
+IMG_7163,Maile Library,2024-05-19,0,Lunalilo Yellow Shower Tree
+IMG_7205,Maile Library,2024-05-22,0,Lunalilo Yellow Shower Tree
+IMG_7247,Maile Library,2024-05-25,0,Lunalilo Yellow Shower Tree
+IMG_7410,Maile Library,2024-06-11,1,Lunalilo Yellow Shower Tree
+IMG_7453,Maile Library,2024-06-14,1,Lunalilo Yellow Shower Tree
+IMG_7511,Maile Library,2024-06-17,1,Lunalilo Yellow Shower Tree
+IMG_7556,Maile Library,2024-06-20,2,Lunalilo Yellow Shower Tree
+IMG_7599,Maile Library,2024-06-23,2,Lunalilo Yellow Shower Tree
+IMG_7690,Maile Library,2024-06-30,3,Lunalilo Yellow Shower Tree
+IMG_7737,Maile Library,2024-07-03,3,Lunalilo Yellow Shower Tree
+IMG_7780,Maile Library,2024-07-06,3,Lunalilo Yellow Shower Tree
+IMG_7824,Maile Library,2024-07-09,3,Lunalilo Yellow Shower Tree
+IMG_7868,Maile Library,2024-07-12,3,Lunalilo Yellow Shower Tree
+IMG_7913,Maile Library,2024-07-15,3,Lunalilo Yellow Shower Tree
+IMG_7965,Maile Library,2024-07-18,3,Lunalilo Yellow Shower Tree
+IMG_7997,Maile Library,2024-07-21,3,Lunalilo Yellow Shower Tree
+IMG_8041,Maile Library,2024-07-24,3,Lunalilo Yellow Shower Tree
+IMG_8081,Maile Library,2024-07-28,2,Lunalilo Yellow Shower Tree
+IMG_8125,Maile Library,2024-07-31,2,Lunalilo Yellow Shower Tree
+IMG_8189,Maile Library,2024-08-04,2,Lunalilo Yellow Shower Tree
+IMG_8233,Maile Library,2024-08-07,2,Lunalilo Yellow Shower Tree
+IMG_8356,Maile Library,2024-08-14,2,Lunalilo Yellow Shower Tree
+IMG_8396,Maile Library,2024-08-18,2,Lunalilo Yellow Shower Tree
+IMG_8443,Maile Library,2024-08-24,2,Lunalilo Yellow Shower Tree
+IMG_8488,Maile Library,2024-08-28,2,Lunalilo Yellow Shower Tree
+IMG_8527,Maile Library,2024-09-01,2,Lunalilo Yellow Shower Tree
+IMG_8566,Maile Library,2024-09-08,2,Lunalilo Yellow Shower Tree
+IMG_8614,Maile Library,2024-09-14,2,Lunalilo Yellow Shower Tree
+IMG_8649,Maile Library,2024-09-18,2,Lunalilo Yellow Shower Tree
+IMG_8722,Maile Library,2024-09-28,2,Lunalilo Yellow Shower Tree
+IMG_8779,Maile Library,2024-10-06,2,Lunalilo Yellow Shower Tree
+IMG_8830,Maile Library,2024-10-12,2,Lunalilo Yellow Shower Tree
+IMG_8882,Maile Library,2024-10-19,1,Lunalilo Yellow Shower Tree
+IMG_8921,Maile Library,2024-10-27,1,Lunalilo Yellow Shower Tree
+IMG_8958,Maile Library,2024-11-02,1,Lunalilo Yellow Shower Tree
+IMG_9021,Maile Library,2024-11-09,0,Lunalilo Yellow Shower Tree
+IMG_9063,Maile Library,2024-11-17,0,Lunalilo Yellow Shower Tree
+IMG_9104,Maile Library,2024-11-23,0,Lunalilo Yellow Shower Tree
+IMG_9155,Maile Library,2024-11-30,0,Lunalilo Yellow Shower Tree
+IMG_9205,Maile Library,2024-12-07,0,Lunalilo Yellow Shower Tree
+IMG_9266,Maile Library,2024-12-15,0,Lunalilo Yellow Shower Tree
+IMG_9313,Maile Library,2024-12-22,0,Lunalilo Yellow Shower Tree
+IMG_9370,Maile Library,2024-12-28,0,Lunalilo Yellow Shower Tree
+IMG_9423,Maile Library,2025-01-04,0,Lunalilo Yellow Shower Tree
+IMG_9467,Maile Library,2025-01-11,0,Lunalilo Yellow Shower Tree
+IMG_9524,Maile Library,2025-01-25,0,Lunalilo Yellow Shower Tree
+IMG_9561,Maile Library,2025-02-01,0,Lunalilo Yellow Shower Tree
+IMG_9603,Maile Library,2025-02-09,0,Lunalilo Yellow Shower Tree
+IMG_9647,Maile Library,2025-02-15,0,Lunalilo Yellow Shower Tree
+IMG_9707,Maile Library,2025-03-01,0,Lunalilo Yellow Shower Tree
+IMG_9769,Maile Library,2025-03-09,0,Lunalilo Yellow Shower Tree
+IMG_9810,Maile Library,2025-03-15,0,Lunalilo Yellow Shower Tree
+IMG_9885,Maile Library,2025-03-22,0,Lunalilo Yellow Shower Tree
+IMG_9929,Maile Library,2025-03-30,0,Lunalilo Yellow Shower Tree
+IMG_9986,Maile Library,2025-04-06,0,Lunalilo Yellow Shower Tree
+IMG_0063,Maile Library,2025-04-13,0,Lunalilo Yellow Shower Tree
+IMG_0129,Maile Library,2025-04-20,0,Lunalilo Yellow Shower Tree
+IMG_0185,Maile Library,2025-04-27,1,Lunalilo Yellow Shower Tree
+IMG_0252,Maile Library,2025-05-04,1,Lunalilo Yellow Shower Tree
+IMG_0298,Maile Library,2025-05-11,1,Lunalilo Yellow Shower Tree
+IMG_0334,Maile Library,2025-05-18,1,Lunalilo Yellow Shower Tree
+IMG_0388,Maile Library,2025-05-24,1,Lunalilo Yellow Shower Tree
+IMG_0511,Maile Library,2025-06-04,1,Lunalilo Yellow Shower Tree
+IMG_0542,Maile Library,2025-06-08,2,Lunalilo Yellow Shower Tree
+IMG_0584,Maile Library,2025-06-11,2,Lunalilo Yellow Shower Tree
+IMG_0630,Maile Library,2025-06-15,2,Lunalilo Yellow Shower Tree
+IMG_0681,Maile Library,2025-06-20,3,Lunalilo Yellow Shower Tree
+IMG_0713,Maile Library,2025-06-25,3,Lunalilo Yellow Shower Tree
+IMG_0778,Maile Library,2025-06-29,3,Lunalilo Yellow Shower Tree
+IMG_0815,Maile Library,2025-07-06,3,Lunalilo Yellow Shower Tree
+IMG_0849,Maile Library,2025-07-09,3,Lunalilo Yellow Shower Tree
+IMG_0881,Maile Library,2025-07-12,3,Lunalilo Yellow Shower Tree
+IMG_0929,Maile Library,2025-07-17,3,Lunalilo Yellow Shower Tree
+IMG_0959,Maile Library,2025-07-19,2,Lunalilo Yellow Shower Tree
+IMG_0994,Maile Library,2025-07-23,2,Lunalilo Yellow Shower Tree
+IMG_1035,Maile Library,2025-07-26,2,Lunalilo Yellow Shower Tree
+IMG_1126,Maile Library,2025-08-02,2,Lunalilo Yellow Shower Tree
+IMG_1352,Maile Library,2025-08-17,2,Lunalilo Yellow Shower Tree
+IMG_1406,Maile Library,2025-08-24,2,Lunalilo Yellow Shower Tree
+IMG_1444,Maile Library,2025-08-31,2,Lunalilo Yellow Shower Tree
+IMG_1497,Maile Library,2025-09-06,2,Lunalilo Yellow Shower Tree
+IMG_1546,Maile Library,2025-09-13,2,Lunalilo Yellow Shower Tree
+IMG_1592,Maile Library,2025-09-21,2,Lunalilo Yellow Shower Tree
+IMG_1634,Maile Library,2025-09-28,2,Lunalilo Yellow Shower Tree
+IMG_1672,Maile Library,2025-10-05,1,Lunalilo Yellow Shower Tree
+IMG_1758,Maile Library,2025-10-12,1,Lunalilo Yellow Shower Tree
+IMG_1831,Maile Library,2025-10-19,1,Lunalilo Yellow Shower Tree
+IMG_1877,Maile Library,2025-10-26,0,Lunalilo Yellow Shower Tree
+IMG_1968,Maile Library,2025-11-02,0,Lunalilo Yellow Shower Tree
+IMG_2029,Maile Library,2025-11-11,0,Lunalilo Yellow Shower Tree
+IMG_2063,Maile Library,2025-11-16,0,Lunalilo Yellow Shower Tree
+IMG_2112,Maile Library,2025-11-23,0,Lunalilo Yellow Shower Tree
+IMG_2180,Maile Library,2025-12-07,0,Lunalilo Yellow Shower Tree
+IMG_2219,Maile Library,2025-12-13,0,Lunalilo Yellow Shower Tree
+IMG_2264,Maile Library,2025-12-21,0,Lunalilo Yellow Shower Tree
+IMG_2322,Maile Library,2025-12-25,0,Lunalilo Yellow Shower Tree
+IMG_2368,Maile Library,2025-12-28,0,Lunalilo Yellow Shower Tree
+IMG_2433,Maile Library,2026-01-01,0,Lunalilo Yellow Shower Tree
+IMG_2518,Maile Library,2026-01-11,0,Lunalilo Yellow Shower Tree
+IMG_2679,Maile Library,2026-01-18,0,Lunalilo Yellow Shower Tree
+IMG_2820,Maile Library,2026-01-25,0,Lunalilo Yellow Shower Tree
+IMG_4429,East-West-Maile,2020-12-08,0,Queen's White Shower Tree
+IMG_4469,East-West-Maile,2020-12-15,0,Queen's White Shower Tree
+IMG_4528,East-West-Maile,2020-12-22,0,Queen's White Shower Tree
+IMG_4577,East-West-Maile,2020-12-29,0,Queen's White Shower Tree
+IMG_4639,East-West-Maile,2021-01-05,0,Queen's White Shower Tree
+IMG_4698,East-West-Maile,2021-01-12,0,Queen's White Shower Tree
+IMG_4758,East-West-Maile,2021-01-19,0,Queen's White Shower Tree
+IMG_4816,East-West-Maile,2021-01-25,0,Queen's White Shower Tree
+IMG_4870,East-West-Maile,2021-02-02,0,Queen's White Shower Tree
+IMG_4931,East-West-Maile,2021-02-09,0,Queen's White Shower Tree
+IMG_4987,East-West-Maile,2021-02-16,0,Queen's White Shower Tree
+IMG_5055,East-West-Maile,2021-02-23,0,Queen's White Shower Tree
+IMG_5118,East-West-Maile,2021-03-02,0,Queen's White Shower Tree
+IMG_5182,East-West-Maile,2021-03-10,0,Queen's White Shower Tree
+IMG_5244,East-West-Maile,2021-03-16,0,Queen's White Shower Tree
+IMG_5303,East-West-Maile,2021-03-23,0,Queen's White Shower Tree
+IMG_5368,East-West-Maile,2021-03-30,0,Queen's White Shower Tree
+IMG_5439,East-West-Maile,2021-04-06,0,Queen's White Shower Tree
+IMG_5505,East-West-Maile,2021-04-13,0,Queen's White Shower Tree
+IMG_5591,East-West-Maile,2021-04-21,0,Queen's White Shower Tree
+IMG_5628,East-West-Maile,2021-04-25,0,Queen's White Shower Tree
+IMG_5565,East-West-Maile,2021-04-28,0,Queen's White Shower Tree
+IMG_5706,East-West-Maile,2021-05-01,0,Queen's White Shower Tree
+IMG_5747,East-West-Maile,2021-05-04,1,Queen's White Shower Tree
+IMG_5802,East-West-Maile,2021-05-08,1,Queen's White Shower Tree
+IMG_5850,East-West-Maile,2021-05-11,1,Queen's White Shower Tree
+IMG_5893,East-West-Maile,2021-05-14,1,Queen's White Shower Tree
+IMG_5930,East-West-Maile,2021-05-18,1,Queen's White Shower Tree
+IMG_5969,East-West-Maile,2021-05-21,1,Queen's White Shower Tree
+IMG_6006,East-West-Maile,2021-05-25,2,Queen's White Shower Tree
+IMG_6048,East-West-Maile,2021-05-28,2,Queen's White Shower Tree
+IMG_6061,East-West-Maile,2021-06-01,2,Queen's White Shower Tree
+IMG_6120,East-West-Maile,2021-06-04,2,Queen's White Shower Tree
+IMG_6160,East-West-Maile,2021-06-07,2,Queen's White Shower Tree
+IMG_6199,East-West-Maile,2021-06-10,3,Queen's White Shower Tree
+IMG_6244,East-West-Maile,2021-06-14,3,Queen's White Shower Tree
+IMG_6286,East-West-Maile,2021-06-17,3,Queen's White Shower Tree
+IMG_6325,East-West-Maile,2021-06-21,3,Queen's White Shower Tree
+IMG_6369,East-West-Maile,2021-06-24,3,Queen's White Shower Tree
+IMG_6381,East-West-Maile,2021-06-28,3,Queen's White Shower Tree
+IMG_6437,East-West-Maile,2021-07-01,3,Queen's White Shower Tree
+IMG_6480,East-West-Maile,2021-07-04,2,Queen's White Shower Tree
+IMG_6516,East-West-Maile,2021-07-08,1,Queen's White Shower Tree
+IMG_6555,East-West-Maile,2021-07-11,1,Queen's White Shower Tree
+IMG_6597,East-West-Maile,2021-07-15,1,Queen's White Shower Tree
+IMG_6637,East-West-Maile,2021-07-18,1,Queen's White Shower Tree
+IMG_6677,East-West-Maile,2021-07-21,1,Queen's White Shower Tree
+IMG_6715,East-West-Maile,2021-07-24,1,Queen's White Shower Tree
+IMG_6753,East-West-Maile,2021-07-28,1,Queen's White Shower Tree
+IMG_6791,East-West-Maile,2021-08-01,1,Queen's White Shower Tree
+IMG_6830,East-West-Maile,2021-08-04,1,Queen's White Shower Tree
+IMG_6869,East-West-Maile,2021-08-08,1,Queen's White Shower Tree
+IMG_6908,East-West-Maile,2021-08-12,1,Queen's White Shower Tree
+IMG_6949,East-West-Maile,2021-08-15,1,Queen's White Shower Tree
+IMG_6989,East-West-Maile,2021-08-19,1,Queen's White Shower Tree
+IMG_7034,East-West-Maile,2021-08-22,1,Queen's White Shower Tree
+IMG_7073,East-West-Maile,2021-08-26,1,Queen's White Shower Tree
+IMG_7113,East-West-Maile,2021-08-29,1,Queen's White Shower Tree
+IMG_7156,East-West-Maile,2021-09-02,1,Queen's White Shower Tree
+IMG_7193,East-West-Maile,2021-09-06,1,Queen's White Shower Tree
+IMG_7232,East-West-Maile,2021-09-09,1,Queen's White Shower Tree
+IMG_7272,East-West-Maile,2021-09-12,1,Queen's White Shower Tree
+IMG_7313,East-West-Maile,2021-09-16,1,Queen's White Shower Tree
+IMG_7351,East-West-Maile,2021-09-19,1,Queen's White Shower Tree
+IMG_7387,East-West-Maile,2021-09-22,1,Queen's White Shower Tree
+IMG_7426,East-West-Maile,2021-09-26,1,Queen's White Shower Tree
+IMG_7464,East-West-Maile,2021-09-29,1,Queen's White Shower Tree
+IMG_7503,East-West-Maile,2021-10-03,1,Queen's White Shower Tree
+IMG_7542,East-West-Maile,2021-10-06,1,Queen's White Shower Tree
+IMG_7582,East-West-Maile,2021-10-10,0,Queen's White Shower Tree
+IMG_7619,East-West-Maile,2021-10-13,0,Queen's White Shower Tree
+IMG_7655,East-West-Maile,2021-10-17,0,Queen's White Shower Tree
+IMG_7692,East-West-Maile,2021-10-20,0,Queen's White Shower Tree
+IMG_7729,East-West-Maile,2021-10-24,0,Queen's White Shower Tree
+IMG_7771,East-West-Maile,2021-10-27,0,Queen's White Shower Tree
+IMG_7814,East-West-Maile,2021-10-31,0,Queen's White Shower Tree
+IMG_7851,East-West-Maile,2021-11-03,0,Queen's White Shower Tree
+IMG_7893,East-West-Maile,2021-11-07,0,Queen's White Shower Tree
+IMG_7955,East-West-Maile,2021-11-13,0,Queen's White Shower Tree
+IMG_8025,East-West-Maile,2021-11-21,0,Queen's White Shower Tree
+IMG_8082,East-West-Maile,2021-11-28,0,Queen's White Shower Tree
+IMG_8175,East-West-Maile,2021-12-11,0,Queen's White Shower Tree
+IMG_8252,East-West-Maile,2021-12-19,0,Queen's White Shower Tree
+IMG_8484,East-West-Maile,2022-01-05,0,Queen's White Shower Tree
+IMG_8526,East-West-Maile,2022-01-09,0,Queen's White Shower Tree
+IMG_8596,East-West-Maile,2022-01-16,0,Queen's White Shower Tree
+IMG_8667,East-West-Maile,2022-01-23,0,Queen's White Shower Tree
+IMG_8728,East-West-Maile,2022-01-30,0,Queen's White Shower Tree
+IMG_8768,East-West-Maile,2022-02-06,0,Queen's White Shower Tree
+IMG_8810,East-West-Maile,2022-02-13,0,Queen's White Shower Tree
+IMG_8853,East-West-Maile,2022-02-20,0,Queen's White Shower Tree
+IMG_8922,East-West-Maile,2022-02-27,0,Queen's White Shower Tree
+IMG_9005,East-West-Maile,2022-03-13,0,Queen's White Shower Tree
+IMG_9007,East-West-Maile,2022-03-20,0,Queen's White Shower Tree
+IMG_9141,East-West-Maile,2022-03-27,0,Queen's White Shower Tree
+IMG_9229,East-West-Maile,2022-04-03,0,Queen's White Shower Tree
+IMG_9295,East-West-Maile,2022-04-10,0,Queen's White Shower Tree
+IMG_9372,East-West-Maile,2022-04-17,0,Queen's White Shower Tree
+IMG_9439,East-West-Maile,2022-04-23,0,Queen's White Shower Tree
+IMG_9473,East-West-Maile,2022-04-27,0,Queen's White Shower Tree
+IMG_9511,East-West-Maile,2022-05-01,0,Queen's White Shower Tree
+IMG_9549,East-West-Maile,2022-05-05,0,Queen's White Shower Tree
+IMG_9596,East-West-Maile,2022-05-08,1,Queen's White Shower Tree
+IMG_9635,East-West-Maile,2022-05-11,1,Queen's White Shower Tree
+IMG_9675,East-West-Maile,2022-05-15,1,Queen's White Shower Tree
+IMG_9716,East-West-Maile,2022-05-18,1,Queen's White Shower Tree
+IMG_9718,East-West-Maile,2022-05-18,1,Queen's White Shower Tree
+IMG_9757,East-West-Maile,2022-05-22,1,Queen's White Shower Tree
+IMG_9798,East-West-Maile,2022-05-25,1,Queen's White Shower Tree
+IMG_9845,East-West-Maile,2022-05-29,1,Queen's White Shower Tree
+IMG_9889,East-West-Maile,2022-06-01,2,Queen's White Shower Tree
+IMG_9933,East-West-Maile,2022-06-05,2,Queen's White Shower Tree
+IMG_0046,East-West-Maile,2022-06-16,2,Queen's White Shower Tree
+IMG_0086,East-West-Maile,2022-06-19,2,Queen's White Shower Tree
+IMG_0126,East-West-Maile,2022-06-22,2,Queen's White Shower Tree
+IMG_0169,East-West-Maile,2022-06-25,2,Queen's White Shower Tree
+IMG_0210,East-West-Maile,2022-07-01,2,Queen's White Shower Tree
+IMG_0254,East-West-Maile,2022-07-21,2,Queen's White Shower Tree
+IMG_0373,East-West-Maile,2022-07-18,1,Queen's White Shower Tree
+IMG_0419,East-West-Maile,2022-07-22,1,Queen's White Shower Tree
+IMG_0465,East-West-Maile,2022-07-24,1,Queen's White Shower Tree
+IMG_0466,East-West-Maile,2022-07-24,1,Queen's White Shower Tree
+IMG_0510,East-West-Maile,2022-07-27,0,Queen's White Shower Tree
+IMG_0511,East-West-Maile,2022-07-27,0,Queen's White Shower Tree
+IMG_0512,East-West-Maile,2022-07-27,1,Queen's White Shower Tree
+IMG_0554,East-West-Maile,2022-07-31,1,Queen's White Shower Tree
+IMG_0595,East-West-Maile,2022-08-03,1,Queen's White Shower Tree
+IMG_0643,East-West-Maile,2022-08-07,1,Queen's White Shower Tree
+IMG_0684,East-West-Maile,2022-08-11,1,Queen's White Shower Tree
+IMG_0729,East-West-Maile,2022-08-14,1,Queen's White Shower Tree
+IMG_0777,East-West-Maile,2022-08-18,1,Queen's White Shower Tree
+IMG_0816,East-West-Maile,2022-08-21,1,Queen's White Shower Tree
+IMG_0857,East-West-Maile,2022-08-24,1,Queen's White Shower Tree
+IMG_0905,East-West-Maile,2022-08-28,1,Queen's White Shower Tree
+IMG_0943,East-West-Maile,2022-08-31,1,Queen's White Shower Tree
+IMG_0983,East-West-Maile,2022-09-04,1,Queen's White Shower Tree
+IMG_1013,East-West-Maile,2022-09-07,1,Queen's White Shower Tree
+IMG_1058,East-West-Maile,2022-09-11,1,Queen's White Shower Tree
+IMG_1096,East-West-Maile,2022-09-14,1,Queen's White Shower Tree
+IMG_1140,East-West-Maile,2022-09-18,1,Queen's White Shower Tree
+IMG_1212,East-West-Maile,2022-09-25,1,Queen's White Shower Tree
+IMG_1241,East-West-Maile,2022-09-29,0,Queen's White Shower Tree
+IMG_1259,East-West-Maile,2022-10-02,1,Queen's White Shower Tree
+IMG_1309,East-West-Maile,2022-10-06,0,Queen's White Shower Tree
+IMG_1327,East-West-Maile,2022-10-09,0,Queen's White Shower Tree
+IMG_1399,East-West-Maile,2022-10-23,0,Queen's White Shower Tree
+IMG_1438,East-West-Maile,2022-10-27,0,Queen's White Shower Tree
+IMG_1456,East-West-Maile,2022-10-30,0,Queen's White Shower Tree
+IMG_1554,East-West-Maile,2022-11-06,0,Queen's White Shower Tree
+IMG_1600,East-West-Maile,2022-11-13,0,Queen's White Shower Tree
+IMG_1661,East-West-Maile,2022-11-17,0,Queen's White Shower Tree
+IMG_1679,East-West-Maile,2022-11-20,0,Queen's White Shower Tree
+IMG_1753,East-West-Maile,2022-11-27,0,Queen's White Shower Tree
+IMG_1830,East-West-Maile,2022-12-04,0,Queen's White Shower Tree
+IMG_1876,East-West-Maile,2022-12-11,0,Queen's White Shower Tree
+IMG_1946,East-West-Maile,2022-12-22,0,Queen's White Shower Tree
+IMG_1985,East-West-Maile,2022-12-25,0,Queen's White Shower Tree
+IMG_2052,East-West-Maile,2023-01-01,0,Queen's White Shower Tree
+IMG_2090,East-West-Maile,2023-01-08,0,Queen's White Shower Tree
+IMG_2149,East-West-Maile,2023-01-15,0,Queen's White Shower Tree
+IMG_2215,East-West-Maile,2023-01-22,0,Queen's White Shower Tree
+IMG_2301,East-West-Maile,2023-02-05,0,Queen's White Shower Tree
+IMG_2372,East-West-Maile,2023-02-19,0,Queen's White Shower Tree
+IMG_2440,East-West-Maile,2023-02-26,0,Queen's White Shower Tree
+IMG_2518,East-West-Maile,2023-03-05,0,Queen's White Shower Tree
+IMG_2591,East-West-Maile,2023-03-12,0,Queen's White Shower Tree
+IMG_2666,East-West-Maile,2023-03-19,0,Queen's White Shower Tree
+IMG_2749,East-West-Maile,2023-03-26,0,Queen's White Shower Tree
+IMG_2837,East-West-Maile,2023-04-02,0,Queen's White Shower Tree
+IMG_2887,East-West-Maile,2023-04-06,0,Queen's White Shower Tree
+IMG_2931,East-West-Maile,2023-04-10,0,Queen's White Shower Tree
+IMG_3014,East-West-Maile,2023-04-16,0,Queen's White Shower Tree
+IMG_3055,East-West-Maile,2023-04-20,0,Queen's White Shower Tree
+IMG_3100,East-West-Maile,2023-04-23,0,Queen's White Shower Tree
+IMG_3145,East-West-Maile,2023-04-30,0,Queen's White Shower Tree
+IMG_3188,East-West-Maile,2023-05-04,0,Queen's White Shower Tree
+IMG_3230,East-West-Maile,2023-05-07,0,Queen's White Shower Tree
+IMG_3281,East-West-Maile,2023-05-11,0,Queen's White Shower Tree
+IMG_3332,East-West-Maile,2023-05-15,0,Queen's White Shower Tree
+IMG_3381,East-West-Maile,2023-05-19,0,Queen's White Shower Tree
+IMG_3529,East-West-Maile,2023-06-05,0,Queen's White Shower Tree
+IMG_3568,East-West-Maile,2023-06-08,3,Queen's White Shower Tree
+IMG_3614,East-West-Maile,2023-06-11,3,Queen's White Shower Tree
+IMG_3654,East-West-Maile,2023-06-14,3,Queen's White Shower Tree
+IMG_3697,East-West-Maile,2023-06-20,3,Queen's White Shower Tree
+IMG_3744,East-West-Maile,2023-06-23,3,Queen's White Shower Tree
+IMG_3785,East-West-Maile,2023-06-27,2,Queen's White Shower Tree
+IMG_3827,East-West-Maile,2023-07-02,2,Queen's White Shower Tree
+IMG_3868,East-West-Maile,2023-07-06,2,Queen's White Shower Tree
+IMG_3914,East-West-Maile,2023-07-09,2,Queen's White Shower Tree
+IMG_3953,East-West-Maile,2023-07-12,1,Queen's White Shower Tree
+IMG_3992,East-West-Maile,2023-07-16,1,Queen's White Shower Tree
+IMG_4104,East-West-Maile,2023-07-26,1,Queen's White Shower Tree
+IMG_4141,East-West-Maile,2023-07-30,1,Queen's White Shower Tree
+IMG_4183,East-West-Maile,2023-08-03,1,Queen's White Shower Tree
+IMG_4229,East-West-Maile,2023-08-06,1,Queen's White Shower Tree
+IMG_4277,East-West-Maile,2023-08-10,1,Queen's White Shower Tree
+IMG_4321,East-West-Maile,2023-08-13,1,Queen's White Shower Tree
+IMG_4362,East-West-Maile,2023-08-15,1,Queen's White Shower Tree
+IMG_4411,East-West-Maile,2023-08-20,1,Queen's White Shower Tree
+IMG_4457,East-West-Maile,2023-08-24,1,Queen's White Shower Tree
+IMG_4498,East-West-Maile,2023-08-27,1,Queen's White Shower Tree
+IMG_4546,East-West-Maile,2023-08-31,1,Queen's White Shower Tree
+IMG_4591,East-West-Maile,2023-09-03,1,Queen's White Shower Tree
+IMG_4637,East-West-Maile,2023-09-07,1,Queen's White Shower Tree
+IMG_4693,East-West-Maile,2023-09-10,1,Queen's White Shower Tree
+IMG_4743,East-West-Maile,2023-09-17,1,Queen's White Shower Tree
+IMG_4793,East-West-Maile,2023-09-24,1,Queen's White Shower Tree
+IMG_4860,East-West-Maile,2023-09-28,1,Queen's White Shower Tree
+IMG_4875,East-West-Maile,2023-10-01,1,Queen's White Shower Tree
+IMG_4923,East-West-Maile,2023-10-08,1,Queen's White Shower Tree
+IMG_4974,East-West-Maile,2023-10-12,1,Queen's White Shower Tree
+IMG_5015,East-West-Maile,2023-10-15,1,Queen's White Shower Tree
+IMG_5071,East-West-Maile,2023-10-19,1,Queen's White Shower Tree
+IMG_5120,East-West-Maile,2023-10-22,0,Queen's White Shower Tree
+IMG_5197,East-West-Maile,2023-10-28,0,Queen's White Shower Tree
+IMG_5264,East-West-Maile,2023-11-05,0,Queen's White Shower Tree
+IMG_5309,East-West-Maile,2023-11-09,0,Queen's White Shower Tree
+IMG_5350,East-West-Maile,2023-11-12,0,Queen's White Shower Tree
+IMG_5402,East-West-Maile,2023-11-19,0,Queen's White Shower Tree
+IMG_5449,East-West-Maile,2023-11-26,0,Queen's White Shower Tree
+IMG_5498,East-West-Maile,2023-12-03,0,Queen's White Shower Tree
+IMG_5568,East-West-Maile,2023-12-08,0,Queen's White Shower Tree
+IMG_5707,East-West-Maile,2023-12-24,0,Queen's White Shower Tree
+IMG_5773,East-West-Maile,2023-12-31,0,Queen's White Shower Tree
+IMG_5846,East-West-Maile,2024-01-07,0,Queen's White Shower Tree
+IMG_5927,East-West-Maile,2024-01-14,0,Queen's White Shower Tree
+IMG_5967,East-West-Maile,2024-01-21,0,Queen's White Shower Tree
+IMG_6033,East-West-Maile,2024-01-28,0,Queen's White Shower Tree
+IMG_6092,East-West-Maile,2024-02-04,0,Queen's White Shower Tree
+IMG_6176,East-West-Maile,2024-02-10,0,Queen's White Shower Tree
+IMG_6302,East-West-Maile,2024-02-19,0,Queen's White Shower Tree
+IMG_6366,East-West-Maile,2024-02-25,0,Queen's White Shower Tree
+IMG_6438,East-West-Maile,2024-03-02,0,Queen's White Shower Tree
+IMG_6485,East-West-Maile,2024-03-10,0,Queen's White Shower Tree
+IMG_6600,East-West-Maile,2024-03-24,0,Queen's White Shower Tree
+IMG_6681,East-West-Maile,2024-03-31,0,Queen's White Shower Tree
+IMG_6753 (1),East-West-Maile,2024-04-07,0,Queen's White Shower Tree
+IMG_6829,East-West-Maile,2024-04-14,0,Queen's White Shower Tree
+IMG_6903,East-West-Maile,2024-04-21,0,Queen's White Shower Tree
+IMG_6954,East-West-Maile,2024-04-28,0,Queen's White Shower Tree
+IMG_7003,East-West-Maile,2024-05-04,0,Queen's White Shower Tree
+IMG_7053,East-West-Maile,2024-05-08,0,Queen's White Shower Tree
+IMG_7109,East-West-Maile,2024-05-12,0,Queen's White Shower Tree
+IMG_7155,East-West-Maile,2024-05-19,0,Queen's White Shower Tree
+IMG_7197,East-West-Maile,2024-05-22,1,Queen's White Shower Tree
+IMG_7239,East-West-Maile,2024-05-25,2,Queen's White Shower Tree
+IMG_7402,East-West-Maile,2024-06-11,3,Queen's White Shower Tree
+IMG_7445,East-West-Maile,2024-06-14,3,Queen's White Shower Tree
+IMG_7503 (1),East-West-Maile,2024-06-17,3,Queen's White Shower Tree
+IMG_7547,East-West-Maile,2024-06-20,3,Queen's White Shower Tree
+IMG_7591,East-West-Maile,2024-06-23,3,Queen's White Shower Tree
+IMG_7679,East-West-Maile,2024-06-30,3,Queen's White Shower Tree
+IMG_7729 (1),East-West-Maile,2024-07-03,2,Queen's White Shower Tree
+IMG_7772,East-West-Maile,2024-07-06,2,Queen's White Shower Tree
+IMG_7815,East-West-Maile,2024-07-09,2,Queen's White Shower Tree
+IMG_7860,East-West-Maile,2024-07-12,2,Queen's White Shower Tree
+IMG_7905,East-West-Maile,2024-07-15,2,Queen's White Shower Tree
+IMG_7972,East-West-Maile,2024-07-18,2,Queen's White Shower Tree
+IMG_7989,East-West-Maile,2024-07-21,2,Queen's White Shower Tree
+IMG_8033,East-West-Maile,2024-07-24,1,Queen's White Shower Tree
+IMG_8073,East-West-Maile,2024-07-28,1,Queen's White Shower Tree
+IMG_8118,East-West-Maile,2024-07-31,1,Queen's White Shower Tree
+IMG_8181,East-West-Maile,2024-08-04,1,Queen's White Shower Tree
+IMG_8225,East-West-Maile,2024-08-07,1,Queen's White Shower Tree
+IMG_8288,East-West-Maile,2024-08-10,1,Queen's White Shower Tree
+IMG_8346,East-West-Maile,2024-08-14,1,Queen's White Shower Tree
+IMG_8388,East-West-Maile,2024-08-18,1,Queen's White Shower Tree
+IMG_8435,East-West-Maile,2024-08-24,1,Queen's White Shower Tree
+IMG_8480,East-West-Maile,2024-08-28,1,Queen's White Shower Tree
+IMG_8520,East-West-Maile,2024-09-01,1,Queen's White Shower Tree
+IMG_8558,East-West-Maile,2024-09-08,1,Queen's White Shower Tree
+IMG_8606,East-West-Maile,2024-09-14,1,Queen's White Shower Tree
+IMG_8642,East-West-Maile,2024-09-18,1,Queen's White Shower Tree
+IMG_8714,East-West-Maile,2024-09-28,1,Queen's White Shower Tree
+IMG_8785,East-West-Maile,2024-10-06,1,Queen's White Shower Tree
+IMG_8805,East-West-Maile,2024-10-09,1,Queen's White Shower Tree
+IMG_8822,East-West-Maile,2024-10-12,1,Queen's White Shower Tree
+IMG_8886,East-West-Maile,2024-10-19,1,Queen's White Shower Tree
+IMG_8913,East-West-Maile,2024-10-27,0,Queen's White Shower Tree
+IMG_8950,East-West-Maile,2024-11-02,0,Queen's White Shower Tree
+IMG_9013,East-West-Maile,2024-11-09,0,Queen's White Shower Tree
+IMG_9055,East-West-Maile,2024-11-17,0,Queen's White Shower Tree
+IMG_9097,East-West-Maile,2024-11-23,0,Queen's White Shower Tree
+IMG_9147,East-West-Maile,2024-11-30,0,Queen's White Shower Tree
+IMG_9197,East-West-Maile,2024-12-07,0,Queen's White Shower Tree
+IMG_9258,East-West-Maile,2024-12-15,0,Queen's White Shower Tree
+IMG_9305,East-West-Maile,2024-12-22,0,Queen's White Shower Tree
+IMG_9362,East-West-Maile,2024-12-28,0,Queen's White Shower Tree
+IMG_9413,East-West-Maile,2025-01-04,0,Queen's White Shower Tree
+IMG_9457,East-West-Maile,2025-01-11,0,Queen's White Shower Tree
+IMG_9516,East-West-Maile,2025-01-25,0,Queen's White Shower Tree
+IMG_9553,East-West-Maile,2025-02-01,0,Queen's White Shower Tree
+IMG_9594,East-West-Maile,2025-02-09,0,Queen's White Shower Tree
+IMG_9639,East-West-Maile,2025-02-15,0,Queen's White Shower Tree
+IMG_9698,East-West-Maile,2025-03-01,0,Queen's White Shower Tree
+IMG_9761,East-West-Maile,2025-03-09,0,Queen's White Shower Tree
+IMG_9802,East-West-Maile,2025-03-15,0,Queen's White Shower Tree
+IMG_9878,East-West-Maile,2025-03-22,0,Queen's White Shower Tree
+IMG_9921,East-West-Maile,2025-03-30,0,Queen's White Shower Tree
+IMG_9979,East-West-Maile,2025-04-06,0,Queen's White Shower Tree
+IMG_0055,East-West-Maile,2025-04-13,0,Queen's White Shower Tree
+IMG_0121,East-West-Maile,2025-04-20,0,Queen's White Shower Tree
+IMG_0189,East-West-Maile,2025-04-27,0,Queen's White Shower Tree
+IMG_0256,East-West-Maile,2025-05-04,0,Queen's White Shower Tree
+IMG_0302,East-West-Maile,2025-05-11,0,Queen's White Shower Tree
+IMG_0326,East-West-Maile,2025-05-18,1,Queen's White Shower Tree
+IMG_0392,East-West-Maile,2025-05-24,1,Queen's White Shower Tree
+IMG_0517,East-West-Maile,2025-06-04,2,Queen's White Shower Tree
+IMG_0535,East-West-Maile,2025-06-08,2,Queen's White Shower Tree
+IMG_0578,East-West-Maile,2025-06-11,2,Queen's White Shower Tree
+IMG_0608,East-West-Maile,2025-06-11,2,Queen's White Shower Tree
+IMG_0637,East-West-Maile,2025-06-15,3,Queen's White Shower Tree
+IMG_0686,East-West-Maile,2025-06-20,3,Queen's White Shower Tree
+IMG_0719,East-West-Maile,2025-06-25,3,Queen's White Shower Tree
+IMG_0770,East-West-Maile,2025-06-29,3,Queen's White Shower Tree
+IMG_0806,East-West-Maile,2025-07-06,3,Queen's White Shower Tree
+IMG_0843,East-West-Maile,2025-07-09,3,Queen's White Shower Tree
+IMG_0873,East-West-Maile,2025-07-12,3,Queen's White Shower Tree
+IMG_0933,East-West-Maile,2025-07-17,2,Queen's White Shower Tree
+IMG_0951,East-West-Maile,2025-07-19,2,Queen's White Shower Tree
+IMG_0987,East-West-Maile,2025-07-23,1,Queen's White Shower Tree
+IMG_1027,East-West-Maile,2025-07-26,1,Queen's White Shower Tree
+IMG_1119,East-West-Maile,2025-08-02,1,Queen's White Shower Tree
+IMG_1345,East-West-Maile,2025-08-17,1,Queen's White Shower Tree
+IMG_1415,East-West-Maile,2025-08-24,1,Queen's White Shower Tree
+IMG_1437,East-West-Maile,2025-08-31,1,Queen's White Shower Tree
+IMG_1501,East-West-Maile,2025-09-06,2,Queen's White Shower Tree
+IMG_1550,East-West-Maile,2025-09-13,2,Queen's White Shower Tree
+IMG_1597,East-West-Maile,2025-09-21,1,Queen's White Shower Tree
+IMG_1638,East-West-Maile,2025-09-28,1,Queen's White Shower Tree
+IMG_1678,East-West-Maile,2025-10-05,1,Queen's White Shower Tree
+IMG_1762,East-West-Maile,2025-10-12,0,Queen's White Shower Tree
+IMG_1837,East-West-Maile,2025-10-19,0,Queen's White Shower Tree
+IMG_1881,East-West-Maile,2025-10-26,0,Queen's White Shower Tree
+IMG_1975,East-West-Maile,2025-11-02,0,Queen's White Shower Tree
+IMG_2033,East-West-Maile,2025-11-11,0,Queen's White Shower Tree
+IMG_2055,East-West-Maile,2025-11-16,0,Queen's White Shower Tree
+IMG_2116,East-West-Maile,2025-11-23,0,Queen's White Shower Tree
+IMG_2172,East-West-Maile,2025-12-07,0,Queen's White Shower Tree
+IMG_2211,East-West-Maile,2025-12-13,0,Queen's White Shower Tree
+IMG_2257,East-West-Maile,2025-12-21,0,Queen's White Shower Tree
+IMG_2326,East-West-Maile,2025-12-25,0,Queen's White Shower Tree
+IMG_2372 (1),East-West-Maile,2025-12-28,0,Queen's White Shower Tree
+IMG_2438,East-West-Maile,2026-01-01,0,Queen's White Shower Tree
+IMG_2510,East-West-Maile,2026-01-11,0,Queen's White Shower Tree
+IMG_2673,East-West-Maile,2026-01-18,0,Queen's White Shower Tree
+IMG_2813,East-West-Maile,2026-01-25,0,Queen's White Shower Tree
 IMG_4415,Maile West Corner,2020-12-8,0,Rainbow Shower Tree
 IMG_4450,Maile West Corner,2020-12-15,0,Rainbow Shower Tree
 IMG_4510,Maile West Corner,2020-12-22,0,Rainbow Shower Tree
