@@ -17,6 +17,11 @@ from dataset import FlowerTypeDataset
 # -------------------------
 df = pd.read_csv("../data/labels.csv")
 
+
+intensity_remap = {0: 0, 1: 1, 2: 1, 3: 2}
+df["intensity"] = df["intensity"].map(intensity_remap)
+
+
 # -------------------------
 # Create unique ID to prevent data leakage
 # Image names may be duplicated across sites,

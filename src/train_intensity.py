@@ -20,6 +20,12 @@ print("Total labeled images:", len(df))
 print("\nIntensity distribution:")
 print(df["intensity"].value_counts().sort_index())
 
+intensity_remap = {0: 0, 1: 1, 2: 1, 3: 2}
+df["intensity"] = df["intensity"].map(intensity_remap)
+
+print("\nRemapped intensity distribution:")
+print(df["intensity"].value_counts().sort_index())
+
 # -------------------------
 # Create unique ID to prevent data leakage
 # -------------------------
