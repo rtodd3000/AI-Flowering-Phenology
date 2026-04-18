@@ -14,11 +14,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 df = pd.read_csv(os.path.join(BASE_DIR, "..", "data", "labels.csv"))
 
 # -------------------------
-# Check columns (optional)
-# -------------------------
-print("Columns:", df.columns)
-
-# -------------------------
 # Convert date
 # -------------------------
 df["date"] = pd.to_datetime(df["date"], errors="coerce")
@@ -27,7 +22,7 @@ df = df.dropna(subset=["date"])
 # -------------------------
 # Use labeled intensity
 # -------------------------
-df["intensity_used"] = df["intensity"]   # change if column name differs
+df["intensity_used"] = df["intensity"]
 
 # -------------------------
 # Group by site + date
@@ -37,9 +32,9 @@ grouped = df.groupby(["site", "date"])["intensity_used"].mean().reset_index()
 print("Sites found:", grouped["site"].unique())
 
 # -------------------------
-# Output directory (optional)
+# Output directory
 # -------------------------
-OUTPUT_DIR = os.path.join(BASE_DIR, "plots")
+OUTPUT_DIR = os.path.join(BASE_DIR, "plot-images")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # -------------------------
@@ -50,39 +45,46 @@ for site in grouped["site"].unique():
 
     site_data = grouped[grouped["site"] == site].sort_values("date")
 
-    # Smooth line
-    site_data["smoothed"] = site_data["intensity_used"].rolling(
-        window=5, min_periods=1
-    ).mean()
-
-    # Raw
     plt.plot(
         site_data["date"],
         site_data["intensity_used"],
-        label="Raw Intensity"
-    )
-
-    # Smoothed
-    plt.plot(
-        site_data["date"],
-        site_data["smoothed"],
-        linewidth=2,
-        label="Smoothed Intensity"
     )
 
     plt.title(f"Flowering Intensity Over Time — {site}")
     plt.xlabel("Date")
     plt.ylabel("Flowering Intensity")
-    plt.legend()
 
-    # Clean x-axis (years + months)
     ax = plt.gca()
-    ax.xaxis.set_major_locator(mdates.YearLocator())
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
-    ax.xaxis.set_minor_locator(mdates.MonthLocator())
 
-    plt.xticks(rotation=30)
+    # Monthly ticks
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+
+    def format_date(x, pos=None):
+        d = mdates.num2date(x)
+        return d.strftime('%b\n%Y') if d.month == 1 else d.strftime('%b')
+
+    ax.xaxis.set_major_formatter(format_date)
+
+    # Base tick style
+    ax.tick_params(axis='x', length=3, width=0.5)
+    plt.xticks(rotation=30, fontsize=8)
+
+    # --- ONLY CHANGE: make January ticks taller ---
+    for tick in ax.xaxis.get_major_ticks():
+        d = mdates.num2date(tick.get_loc())
+        if d.month == 1:
+            tick.tick1line.set_markersize(8)
+            tick.tick2line.set_markersize(8)
+
+    # Light grid
+    ax.grid(axis='x', linestyle='-', linewidth=0.3, alpha=0.3)
+
     plt.yticks([0, 1, 2, 3])
-
     plt.tight_layout()
-    plt.show()
+
+    # Save
+    filename = f"{site.replace(' ', '_')}_plot.png"
+    filepath = os.path.join(OUTPUT_DIR, filename)
+
+    plt.savefig(filepath)
+    plt.close()
