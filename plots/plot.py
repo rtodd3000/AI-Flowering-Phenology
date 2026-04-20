@@ -41,7 +41,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # Plot per site
 # -------------------------
 for site in grouped["site"].unique():
-    plt.figure(figsize=(14, 7))
+    plt.figure(figsize=(20, 7))
 
     site_data = grouped[grouped["site"] == site].sort_values("date")
 
@@ -61,13 +61,13 @@ for site in grouped["site"].unique():
 
     def format_date(x, pos=None):
         d = mdates.num2date(x)
-        return d.strftime('%b\n%Y') if d.month == 1 else d.strftime('%b')
+        return d.strftime('%b\n%Y')
 
     ax.xaxis.set_major_formatter(format_date)
 
     # Base tick style
     ax.tick_params(axis='x', length=3, width=0.5)
-    plt.xticks(rotation=30, fontsize=8)
+    plt.xticks(fontsize=7)
 
     # --- ONLY CHANGE: make January ticks taller ---
     for tick in ax.xaxis.get_major_ticks():
