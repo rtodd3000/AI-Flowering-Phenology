@@ -69,15 +69,11 @@ for site in grouped["site"].unique():
     ax.tick_params(axis='x', length=3, width=0.5)
     plt.xticks(fontsize=7)
 
-    # --- ONLY CHANGE: make January ticks taller ---
-    for tick in ax.xaxis.get_major_ticks():
-        d = mdates.num2date(tick.get_loc())
-        if d.month == 1:
-            tick.tick1line.set_markersize(8)
-            tick.tick2line.set_markersize(8)
-
     # Light grid
     ax.grid(axis='x', linestyle='-', linewidth=0.3, alpha=0.3)
+
+    # Get rid of extra space on left and right, fix margins
+    ax.margins(x=0)
 
     plt.yticks([0, 1, 2, 3])
     plt.tight_layout()
