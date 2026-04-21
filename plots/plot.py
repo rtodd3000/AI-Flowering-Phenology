@@ -27,7 +27,7 @@ df["intensity_used"] = df["intensity"]
 # -------------------------
 # Group by site + date
 # -------------------------
-grouped = df.groupby(["site", "date"])["intensity_used"].mean().reset_index()
+grouped = df.groupby(["site", "date"])["intensity_used"].max().reset_index()
 
 print("Sites found:", grouped["site"].unique())
 
