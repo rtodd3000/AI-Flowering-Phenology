@@ -36,7 +36,7 @@ class App(customtkinter.CTk):
         self.header_frame.pack(pady=5, padx=20, fill="x")
         self.welcome_label = customtkinter.CTkLabel(self.header_frame, text="Welcome to the Flowering Analyzer!", height=20, font=("Roboto", 25, "bold"))
         self.welcome_label.grid(row=0, column=0, sticky="w")
-        self.author_label = customtkinter.CTkLabel(self.header_frame, text="Made By Ryan Graham, Corvey Lee, Eden Paraguo, Javin Solmirin", height=10, font=("Roboto", 15, "bold"))
+        self.author_label = customtkinter.CTkLabel(self.header_frame, text="Made By Ryan Todd, Corvey Lee, Eden Parungao, Javin Solmirin", height=10, font=("Roboto", 15, "bold"))
         self.author_label.grid(row=1, column=0, sticky="w", padx=10, pady=3)
 
         # Body Frame
