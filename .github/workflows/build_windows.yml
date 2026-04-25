@@ -5,6 +5,10 @@ on:
       - GUI
     tags:
       - 'v*'
+      
+permissions:
+  contents: write
+
 jobs:
   build-windows:
     runs-on: windows-latest
@@ -23,7 +27,7 @@ jobs:
           C:/hostedtoolcache/windows/Python/3.11.*/x64/Scripts/pyinstaller.exe "Flowering Analyzer.spec"
       - name: Copy models into dist
         run: |
-          xcopy /E /I models dist\Flowering Analyzer\models
+          xcopy /E /I models "src\dist\Flowering Analyzer\models"
       - name: Zip dist folder
         run: |
           Compress-Archive -Path "src/dist/Flowering Analyzer" -DestinationPath "Flowering-Analyzer-windows.zip"
