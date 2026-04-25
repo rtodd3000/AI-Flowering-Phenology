@@ -1,0 +1,42 @@
+name: Build Executable
+
+on:
+  push:
+    tags:
+      - 'v*'  # triggers when you push a version tag like v1.0.0
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install customtkinter pillow pillow-heif matplotlib onnxruntime pyinstaller onnxscript
+
+      - name: Build executable
+        working-directory: src
+        run: |
+          C:/hostedtoolcache/windows/Python/3.11.*/x64/Scripts/pyinstaller.exe "Flowering Analyzer.spec"
+
+      - name: Copy models into dist
+        run: |
+          xcopy /E /I models dist\Flowering Analyzer\models
+
+      - name: Zip dist folder
+        run: |
+          Compress-Archive -Path "src/dist/Flowering Analyzer" -DestinationPath "Flowering-Analyzer-windows.zip"
+
+      - name: Upload to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: Flowering-Analyzer-windows.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
