@@ -12,25 +12,19 @@ from sklearn.metrics import classification_report
 from dataset import FlowerTypeDataset
 
 
-# -------------------------
 # Load CSV
-# -------------------------
 df = pd.read_csv("../data/labels.csv")
 
-# -------------------------
 # Create unique ID to prevent data leakage
 # Image names may be duplicated across sites,
 # so we combine site + image_name as a unique key
-# -------------------------
 df["unique_id"] = df["site"] + "/" + df["image_name"]
 
 # Convert intensity to string so it works with the dataset class
 # (dataset expects string labels like flower_type)
 df["intensity"] = df["intensity"].astype(str)
 
-# -------------------------
 # Stratified split (70/15/15)
-# -------------------------
 train_df, temp_df = train_test_split(
     df,
     test_size=0.3,
@@ -54,15 +48,11 @@ assert len(overlap_train_val)  == 0, "Data leakage between train and val!"
 
 print(f"\nTrain: {len(train_df)} | Val: {len(val_df)} | Test: {len(test_df)}")
 
-# -------------------------
 # Device setup
-# -------------------------
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
 
-# -------------------------
 # Transforms
-# -------------------------
 imagenet_norm = transforms.Normalize(
     mean=[0.485, 0.456, 0.406],
     std=[0.229, 0.224, 0.225]
@@ -85,21 +75,17 @@ eval_transform = transforms.Compose([
     imagenet_norm
 ])
 
-# -------------------------
 # Datasets
 # We reuse FlowerTypeDataset since it works for any
 # string label column — intensity levels 0, 1, 2, 3
 # are treated as 4 separate classes
-# -------------------------
 train_dataset = FlowerTypeDataset(train_df, "../data/raw", train_transform, label_col="intensity")
 val_dataset   = FlowerTypeDataset(val_df,   "../data/raw", eval_transform, label_col="intensity")
 test_dataset  = FlowerTypeDataset(test_df,  "../data/raw", eval_transform, label_col="intensity")
 
 print("Classes:", train_dataset.classes)
 
-# -------------------------
 # Weighted sampler
-# -------------------------
 class_counts   = train_df["intensity"].value_counts()
 class_weights  = {cls: 1.0 / count for cls, count in class_counts.items()}
 sample_weights = torch.DoubleTensor(train_df["intensity"].map(class_weights).tolist())
@@ -114,9 +100,7 @@ train_loader = DataLoader(train_dataset, batch_size=16, sampler=sampler)
 val_loader   = DataLoader(val_dataset,   batch_size=16)
 test_loader  = DataLoader(test_dataset,  batch_size=16)
 
-# -------------------------
 # Load the saved baseline model
-# -------------------------
 num_classes = len(train_dataset.classes)
 model = resnet18(weights=None)
 model.fc = nn.Linear(model.fc.in_features, num_classes)
@@ -124,11 +108,9 @@ model.fc = nn.Linear(model.fc.in_features, num_classes)
 model.load_state_dict(torch.load("../models/intensity_model_best.pth"))
 print("Loaded baseline model from intensity_model_best.pth")
 
-# -------------------------
 # Unfreeze entire network with two learning rates:
 #   - Backbone: very low lr to preserve learned features
 #   - FC layer: slightly higher lr for final classification
-# -------------------------
 for param in model.parameters():
     param.requires_grad = True
 
@@ -149,18 +131,14 @@ scheduler = optim.lr_scheduler.ReduceLROnPlateau(
 model = model.to(device)
 criterion = nn.CrossEntropyLoss()
 
-# -------------------------
 # Fine-tuning config
-# -------------------------
 num_epochs = 30
 patience   = 10
 
 best_val_accuracy = 0.0
 epochs_no_improve = 0
 
-# -------------------------
 # Fine-tuning loop
-# -------------------------
 for epoch in range(num_epochs):
 
     # --- Train ---
@@ -225,9 +203,7 @@ for epoch in range(num_epochs):
             print("Early stopping triggered.")
             break
 
-# -------------------------
 # Final test evaluation (load best fine-tuned model)
-# -------------------------
 print("\nLoading best fine-tuned model for final evaluation...")
 model.load_state_dict(torch.load("../models/intensity_model_finetuned.pth"))
 model.eval()

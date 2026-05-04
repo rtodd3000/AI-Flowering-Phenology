@@ -12,24 +12,18 @@ from sklearn.metrics import classification_report
 from dataset import FlowerTypeDataset
 
 
-# -------------------------
 # Load CSV
-# -------------------------
 df = pd.read_csv("../data/labels.csv")
 print("Total labeled images:", len(df))
 print("\nClass distribution:")
 print(df["flower_type"].value_counts())
 
-# -------------------------
 # Create unique ID to prevent data leakage
 # Image names may be duplicated across sites,
 # so we combine site + image_name as a unique key
-# -------------------------
 df["unique_id"] = df["site"] + "/" + df["image_name"]
 
-# -------------------------
 # Stratified split (70/15/15)
-# -------------------------
 train_df, temp_df = train_test_split(
     df,
     test_size=0.3,
@@ -108,16 +102,13 @@ sampler = WeightedRandomSampler(
     replacement=True
 )
 
-# -------------------------
+
 # DataLoaders
-# -------------------------
 train_loader = DataLoader(train_dataset, batch_size=16, sampler=sampler)
 val_loader   = DataLoader(val_dataset,   batch_size=16)
 test_loader  = DataLoader(test_dataset,  batch_size=16)
 
-# -------------------------
 # Model: ResNet18 with frozen backbone
-# -------------------------
 num_classes = len(train_dataset.classes)
 model = resnet18(weights=ResNet18_Weights.DEFAULT)
 
@@ -127,24 +118,18 @@ for param in model.parameters():
 model.fc = nn.Linear(model.fc.in_features, num_classes)
 model = model.to(device)
 
-# -------------------------
 # Loss and optimizer
-# -------------------------
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.fc.parameters(), lr=0.001)
 
-# -------------------------
 # Training config
-# -------------------------
 num_epochs = 30
 patience   = 7
 
 best_val_accuracy = 0.0
 epochs_no_improve = 0
 
-# -------------------------
 # Training loop
-# -------------------------
 for epoch in range(num_epochs):
 
     # --- Train ---
@@ -207,9 +192,7 @@ for epoch in range(num_epochs):
             print("Early stopping triggered.")
             break
 
-# -------------------------
 # Final test evaluation (load best model)
-# -------------------------
 print("\nLoading best model for final evaluation...")
 model.load_state_dict(torch.load("../models/flower_type_model_best.pth"))
 model.eval()

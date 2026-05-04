@@ -11,9 +11,7 @@ from collections import Counter
 import pandas as pd
 
 
-# -------------------------
 # Config
-# -------------------------
 FLOWER_MODEL_PATH    = "../models/flower_type_model_finetuned.pth"
 INTENSITY_MODEL_PATH = "../models/intensity_model_finetuned.pth"
 CSV_PATH             = "../data/labels.csv"
@@ -35,9 +33,7 @@ INTENSITY_CLASSES = [
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".tiff"}
 
-# -------------------------
 # Image transform (must match eval transform used in training)
-# -------------------------
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
@@ -48,9 +44,7 @@ transform = transforms.Compose([
 ])
 
 
-# -------------------------
 # CSV helpers
-# -------------------------
 def load_csv():
     """Load the labels CSV and return as a DataFrame."""
     if os.path.isfile(CSV_PATH):
@@ -92,9 +86,7 @@ def save_csv(df):
     print(f"\n✓ CSV updated: {CSV_PATH}")
 
 
-# -------------------------
 # Model loading
-# -------------------------
 def load_model(model_path, num_classes, model_name):
     """Load a saved ResNet18 model."""
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -121,9 +113,7 @@ def load_both_models():
     return flower_model, intensity_model, device
 
 
-# -------------------------
 # Inference
-# -------------------------
 def predict_image(flower_model, intensity_model, device, img_path):
     """
     Run both models on a single image.
@@ -162,9 +152,7 @@ def predict_image(flower_model, intensity_model, device, img_path):
     return result, None
 
 
-# -------------------------
 # Output formatting
-# -------------------------
 def print_prediction(img_path, result):
     """Print a clean formatted prediction for a single image."""
     print(f"\nImage: {os.path.basename(img_path)}")
@@ -191,9 +179,7 @@ def print_prediction(img_path, result):
     print("-" * 50)
 
 
-# -------------------------
 # Single image prediction
-# -------------------------
 def predict_single(img_path, site_override=None):
     """Predict flower type and intensity for a single image."""
     flower_model, intensity_model, device = load_both_models()
@@ -218,9 +204,7 @@ def predict_single(img_path, site_override=None):
     print(f"Added: {image_name} | Site: {site} | {result['flower_pred']} | {result['intensity_pred']}")
 
 
-# -------------------------
 # Folder prediction
-# -------------------------
 def predict_folder(folder_path):
     """Predict flower type and intensity for all new images in a folder."""
     if not os.path.isdir(folder_path):
@@ -300,9 +284,7 @@ def predict_folder(folder_path):
         print("\nNo new images to process.")
 
 
-# -------------------------
 # Main
-# -------------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Predict flower type and intensity, and save results to labels.csv"

@@ -12,26 +12,19 @@ from sklearn.metrics import classification_report
 from dataset import FlowerTypeDataset
 
 
-# -------------------------
 # Load CSV
-# -------------------------
 df = pd.read_csv("../data/labels.csv")
 print("Total labeled images:", len(df))
 print("\nIntensity distribution:")
 print(df["intensity"].value_counts().sort_index())
 
-# -------------------------
 # Create unique ID to prevent data leakage
-# -------------------------
 df["unique_id"] = df["site"] + "/" + df["image_name"]
 
 # Convert intensity to string so it works with the dataset class
-# (dataset expects string labels like flower_type)
 df["intensity"] = df["intensity"].astype(str)
 
-# -------------------------
 # Stratified split (70/15/15)
-# -------------------------
 train_df, temp_df = train_test_split(
     df,
     test_size=0.3,
@@ -57,15 +50,11 @@ print(f"\nTrain: {len(train_df)} | Val: {len(val_df)} | Test: {len(test_df)}")
 print("\nTrain intensity distribution:")
 print(train_df["intensity"].value_counts().sort_index())
 
-# -------------------------
 # Device setup
-# -------------------------
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("\nUsing device:", device)
 
-# -------------------------
 # Image transforms
-# -------------------------
 imagenet_norm = transforms.Normalize(
     mean=[0.485, 0.456, 0.406],
     std=[0.229, 0.224, 0.225]
@@ -100,11 +89,9 @@ test_dataset  = FlowerTypeDataset(test_df,  "../data/raw", eval_transform,   lab
 
 print("\nClasses:", train_dataset.classes)
 
-# -------------------------
 # Weighted sampler to handle class imbalance
 # Level 0 has 272 images vs 91 for level 2 —
 # sampler gives each level an equal chance per batch
-# -------------------------
 class_counts   = train_df["intensity"].value_counts()
 class_weights = {cls: 1.0 / count for cls, count in class_counts.items()}
 sample_weights = torch.DoubleTensor(train_df["intensity"].map(class_weights).tolist())
@@ -115,44 +102,34 @@ sampler = WeightedRandomSampler(
     replacement=True
 )
 
-# -------------------------
 # DataLoaders
-# -------------------------
 train_loader = DataLoader(train_dataset, batch_size=16, sampler=sampler)
 val_loader   = DataLoader(val_dataset,   batch_size=16)
 test_loader  = DataLoader(test_dataset,  batch_size=16)
 
-# -------------------------
 # Model: ResNet18 with frozen backbone
-# -------------------------
 num_classes = len(train_dataset.classes)
 model = resnet18(weights=ResNet18_Weights.DEFAULT)
 
-# Freeze all layers — only train the final fc layer
+# Freeze all layers
 for param in model.parameters():
     param.requires_grad = False
 
 model.fc = nn.Linear(model.fc.in_features, num_classes)
 model = model.to(device)
 
-# -------------------------
 # Loss and optimizer
-# -------------------------
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.fc.parameters(), lr=0.001)
 
-# -------------------------
 # Training config
-# -------------------------
 num_epochs = 30
 patience   = 7
 
 best_val_accuracy = 0.0
 epochs_no_improve = 0
 
-# -------------------------
 # Training loop
-# -------------------------
 for epoch in range(num_epochs):
 
     # --- Train ---
@@ -215,9 +192,7 @@ for epoch in range(num_epochs):
             print("Early stopping triggered.")
             break
 
-# -------------------------
 # Final test evaluation (load best model)
-# -------------------------
 print("\nLoading best model for final evaluation...")
 model.load_state_dict(torch.load("../models/intensity_model_best.pth"))
 model.eval()
